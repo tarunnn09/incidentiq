@@ -1,0 +1,47 @@
+name: CI
+
+# Runs on every push to main and on every pull request.
+# Render is set to deploy only after these checks pass (see render.yaml: autoDeployTrigger: checksPass).
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    name: Install, train and run tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Train the models
+        run: python -m app.ml > /dev/null
+      - name: Run pytest
+        run: python -m pytest -q
+
+  docker:
+    name: Build and validate the Docker image
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t incidentiq:ci .
+      - name: Start container on a custom PORT and check /health
+        run: |
+          docker run -d --name iq -e PORT=10000 -p 10000:10000 incidentiq:ci
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:10000/health; then echo; break; fi
+            sleep 2
+          done
+          curl -fsS http://localhost:10000/health | grep '"status":"ok"'
+          curl -fsS http://localhost:10000/api/demo | grep '"total_incidents"'
+      - name: Show logs if something failed
+        if: failure()
+        run: docker logs iq

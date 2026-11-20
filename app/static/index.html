@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IncidentIQ - AI incident intelligence</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="logo">&#9672;</span>
+      <span><strong>IncidentIQ</strong><small>AI-powered incident intelligence</small></span>
+    </a>
+    <div class="actions">
+      <span id="source-badge" class="badge">Loading...</span>
+      <button id="demo-btn" class="btn" type="button">Load demo data</button>
+      <label class="btn btn-primary" for="csv-input">Upload CSV</label>
+      <input id="csv-input" type="file" accept=".csv,text/csv" hidden>
+    </div>
+  </header>
+
+  <div id="toast" class="toast" hidden></div>
+  <main id="app"><p class="muted center">Loading dashboard...</p></main>
+  <footer class="footer">
+    College project. Demo data is synthetic. Probable causes are suggestions from ML and simple rules, not confirmed facts.
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

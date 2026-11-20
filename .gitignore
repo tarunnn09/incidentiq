@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Created by `python -m app.ml` (regenerated on every build, so not stored in git)
+models/*.joblib
+models/model_info.json
+data/training_data.csv
+
+# Environment & local secrets
+.env
+*.env
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

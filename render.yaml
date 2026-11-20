@@ -1,0 +1,10 @@
+# Render Blueprint: describes the web service so Render can create it for you.
+services:
+  - type: web
+    name: incidentiq
+    runtime: docker
+    plan: free
+    region: singapore            # closest Render region to India
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeployTrigger: checksPass  # deploy only after the GitHub Actions checks pass

@@ -1,0 +1,1081 @@
+timestamp,service,log_level,message,latency_ms,error_rate,cpu_pct,memory_pct
+2026-01-15 09:00:00,api-gateway,INFO,Payment 69012 processed (trace_id=bc5bd9e5),120.0,0.65,30.6,46.55
+2026-01-15 09:00:00,auth-service,INFO,Metrics exported successfully,119.6,0.34,42.29,45.1
+2026-01-15 09:00:00,inventory-db,INFO,Cache hit for key product_79422 (trace_id=32e7f699),92.3,1.54,37.09,58.9
+2026-01-15 09:00:00,notification-service,INFO,Heartbeat OK,91.2,0.53,41.96,58.45
+2026-01-15 09:00:00,order-service,INFO,Order 7915 created (trace_id=34462c10),101.7,0.58,39.26,57.3
+2026-01-15 09:00:00,payment-service,INFO,Health check passed,125.3,0.59,40.71,53.49
+2026-01-15 09:01:00,api-gateway,INFO,Scheduled cleanup job finished,126.8,0.78,35.82,56.84
+2026-01-15 09:01:00,auth-service,INFO,[auth-service] Order 97715 created,281.2,1.1,45.26,46.34
+2026-01-15 09:01:00,inventory-db,INFO,Configuration reloaded (trace_id=1a061f1a),89.9,1.01,45.01,54.38
+2026-01-15 09:01:00,notification-service,INFO,Configuration reloaded,114.9,1.1,23.24,45.45
+2026-01-15 09:01:00,order-service,INFO,Health check passed,99.5,0.83,36.17,51.68
+2026-01-15 09:01:00,payment-service,WARN,"Retrying request, attempt 1 of 3",127.2,1.18,40.9,48.24
+2026-01-15 09:02:00,api-gateway,WARN,"Retrying request, attempt 1 of 3",114.4,0.9,38.2,51.29
+2026-01-15 09:02:00,auth-service,INFO,Metrics exported successfully,160.7,0.69,45.2,57.81
+2026-01-15 09:02:00,inventory-db,INFO,Heartbeat OK,118.2,1.71,40.99,64.98
+2026-01-15 09:02:00,notification-service,INFO,Health check passed,121.2,0.59,48.95,47.06
+2026-01-15 09:02:00,order-service,INFO,Request completed successfully in 5955ms,111.1,0.33,37.93,58.23
+2026-01-15 09:02:00,payment-service,INFO,Cache hit for key product_95184,124.5,0.81,44.12,54.63
+2026-01-15 09:03:00,api-gateway,INFO,Configuration reloaded,101.0,0.76,25.87,53.35
+2026-01-15 09:03:00,auth-service,INFO,Order 2239 created (trace_id=2b5bb673),94.5,0.9,40.33,52.59
+2026-01-15 09:03:00,inventory-db,INFO,Health check passed (trace_id=af25e581),127.7,0.16,44.88,51.61
+2026-01-15 09:03:00,notification-service,INFO,Heartbeat OK,142.7,0.19,29.47,48.49
+2026-01-15 09:03:00,order-service,INFO,Request completed successfully in 7270ms (trace_id=aef2fd67),148.3,0.96,44.33,49.22
+2026-01-15 09:03:00,payment-service,INFO,Payment 10818 processed,124.8,0.54,40.32,47.42
+2026-01-15 09:04:00,api-gateway,WARN,"Retrying request, attempt 1 of 3",110.8,1.05,41.16,51.98
+2026-01-15 09:04:00,auth-service,INFO,Health check passed,122.8,0.84,39.09,56.92
+2026-01-15 09:04:00,inventory-db,INFO,Payment 91321 processed,178.0,1.55,42.37,55.14
+2026-01-15 09:04:00,notification-service,INFO,Cache hit for key product_56827 (trace_id=831389b7),164.2,0.64,40.31,57.75
+2026-01-15 09:04:00,order-service,INFO,Order 36542 created,138.0,1.34,34.48,59.62
+2026-01-15 09:04:00,payment-service,INFO,Health check passed,319.0,1.54,43.89,55.21
+2026-01-15 09:05:00,api-gateway,INFO,Heartbeat OK,99.2,1.74,41.71,53.29
+2026-01-15 09:05:00,auth-service,INFO,Cache hit for key product_43436,116.9,1.27,41.49,60.7
+2026-01-15 09:05:00,inventory-db,INFO,Configuration reloaded,133.1,0.5,36.4,48.73
+2026-01-15 09:05:00,notification-service,INFO,Order 6618 created,148.1,1.11,58.55,51.31
+2026-01-15 09:05:00,order-service,INFO,Metrics exported successfully,105.0,1.51,46.41,40.19
+2026-01-15 09:05:00,payment-service,INFO,Health check passed,68.0,1.13,31.48,54.42
+2026-01-15 09:06:00,api-gateway,INFO,Request completed successfully in 8489ms,122.6,1.1,39.68,43.45
+2026-01-15 09:06:00,auth-service,INFO,Metrics exported successfully,133.6,0.21,45.48,53.14
+2026-01-15 09:06:00,inventory-db,INFO,Configuration reloaded,121.6,1.38,52.81,59.37
+2026-01-15 09:06:00,notification-service,INFO,Heartbeat OK,120.8,1.08,38.58,51.51
+2026-01-15 09:06:00,order-service,INFO,User login successful for user_79557 (trace_id=3159b8b8),142.4,0.81,42.22,45.77
+2026-01-15 09:06:00,payment-service,INFO,Request completed successfully in 3030ms,119.1,1.64,46.16,49.7
+2026-01-15 09:07:00,api-gateway,INFO,Configuration reloaded (trace_id=2e361c59),150.9,0.83,37.94,61.08
+2026-01-15 09:07:00,auth-service,INFO,Configuration reloaded (trace_id=9c1da1ae),125.0,0.96,44.12,49.68
+2026-01-15 09:07:00,inventory-db,INFO,Heartbeat OK,153.5,0.56,49.01,54.89
+2026-01-15 09:07:00,notification-service,INFO,Order 11417 created,103.3,1.35,29.89,50.32
+2026-01-15 09:07:00,order-service,INFO,User login successful for user_9058,249.1,0.47,46.92,64.61
+2026-01-15 09:07:00,payment-service,WARN,"Retrying request, attempt 1 of 3",130.0,1.35,52.9,59.07
+2026-01-15 09:08:00,api-gateway,INFO,Metrics exported successfully,110.8,0.04,38.42,56.27
+2026-01-15 09:08:00,auth-service,INFO,Health check passed (trace_id=f452ddc8),136.2,0.05,44.48,41.35
+2026-01-15 09:08:00,inventory-db,INFO,Metrics exported successfully,105.1,1.26,30.25,47.16
+2026-01-15 09:08:00,notification-service,INFO,Request completed successfully in 7559ms,120.7,0.47,52.45,47.45
+2026-01-15 09:08:00,order-service,INFO,Heartbeat OK,106.0,0.45,47.94,56.25
+2026-01-15 09:08:00,payment-service,INFO,Heartbeat OK,148.2,1.16,42.2,64.45
+2026-01-15 09:09:00,api-gateway,INFO,[api-gateway] Heartbeat OK,108.2,0.99,34.33,60.56
+2026-01-15 09:09:00,auth-service,INFO,Heartbeat OK,112.6,1.4,42.25,56.02
+2026-01-15 09:09:00,inventory-db,WARN,Deprecated API version used by client,129.5,0.66,36.95,51.4
+2026-01-15 09:09:00,notification-service,INFO,Request completed successfully in 7279ms,121.3,0.65,37.36,50.35
+2026-01-15 09:09:00,order-service,INFO,Health check passed,130.6,0.13,50.57,50.82
+2026-01-15 09:09:00,payment-service,INFO,User login successful for user_94842 (trace_id=55c14360),99.5,0.84,31.28,61.42
+2026-01-15 09:10:00,api-gateway,INFO,Request completed successfully in 8917ms,132.8,0.17,39.41,64.9
+2026-01-15 09:10:00,auth-service,INFO,Payment 40183 processed,123.1,0.19,35.9,50.36
+2026-01-15 09:10:00,inventory-db,INFO,User login successful for user_28955,144.0,0.15,41.56,64.42
+2026-01-15 09:10:00,notification-service,INFO,User login successful for user_11574,127.6,0.84,40.23,49.9
+2026-01-15 09:10:00,order-service,INFO,Request completed successfully in 2266ms,101.6,0.89,46.37,66.56
+2026-01-15 09:10:00,payment-service,INFO,Metrics exported successfully (trace_id=e1a0cf11),131.4,0.24,50.54,48.05
+2026-01-15 09:11:00,api-gateway,INFO,Configuration reloaded,130.1,0.1,37.55,55.11
+2026-01-15 09:11:00,auth-service,INFO,Request completed successfully in 3537ms,107.5,0.3,39.59,56.57
+2026-01-15 09:11:00,inventory-db,INFO,Configuration reloaded,140.0,0.31,46.28,59.09
+2026-01-15 09:11:00,notification-service,INFO,User login successful for user_60661,103.2,1.12,40.34,53.22
+2026-01-15 09:11:00,order-service,INFO,Cache hit for key product_22127,87.4,1.51,47.04,60.71
+2026-01-15 09:11:00,payment-service,INFO,Payment 67304 processed,142.9,1.13,39.04,61.16
+2026-01-15 09:12:00,api-gateway,INFO,User login successful for user_54130,124.8,1.23,42.19,45.99
+2026-01-15 09:12:00,auth-service,INFO,Configuration reloaded,107.9,0.04,34.95,56.16
+2026-01-15 09:12:00,inventory-db,INFO,Request completed successfully in 6298ms (trace_id=eb2b09b0),131.6,0.68,41.15,56.05
+2026-01-15 09:12:00,notification-service,INFO,User login successful for user_29867,155.8,0.75,46.79,52.91
+2026-01-15 09:12:00,order-service,INFO,[order-service] Health check passed,150.0,0.35,40.95,61.1
+2026-01-15 09:12:00,payment-service,INFO,Payment 69376 processed (trace_id=d249c74e),114.4,0.81,20.75,55.92
+2026-01-15 09:13:00,api-gateway,INFO,[api-gateway] Cache hit for key product_65276,102.2,1.15,33.24,50.53
+2026-01-15 09:13:00,auth-service,INFO,Request completed successfully in 5185ms (trace_id=516a79e9),119.6,1.62,48.7,48.08
+2026-01-15 09:13:00,inventory-db,INFO,Payment 41253 processed,114.8,0.81,32.23,59.79
+2026-01-15 09:13:00,notification-service,INFO,Metrics exported successfully,107.3,0.33,47.21,42.78
+2026-01-15 09:13:00,order-service,INFO,Health check passed,82.2,0.26,46.33,53.22
+2026-01-15 09:13:00,payment-service,INFO,Heartbeat OK,82.4,1.11,40.06,54.57
+2026-01-15 09:14:00,api-gateway,INFO,Scheduled cleanup job finished,122.2,0.73,43.44,48.97
+2026-01-15 09:14:00,auth-service,INFO,Scheduled cleanup job finished (trace_id=20cdbbb3),119.7,0.16,27.08,63.62
+2026-01-15 09:14:00,inventory-db,INFO,Configuration reloaded,94.8,0.33,47.72,47.57
+2026-01-15 09:14:00,notification-service,INFO,User login successful for user_78769,137.9,0.03,41.0,51.55
+2026-01-15 09:14:00,order-service,INFO,Cache hit for key product_88095,134.0,1.53,36.14,58.53
+2026-01-15 09:14:00,payment-service,INFO,Heartbeat OK,116.6,0.77,45.88,51.88
+2026-01-15 09:15:00,api-gateway,INFO,Payment 43980 processed,138.4,0.06,42.92,52.49
+2026-01-15 09:15:00,auth-service,INFO,Payment 39544 processed,208.0,0.86,40.39,60.42
+2026-01-15 09:15:00,inventory-db,INFO,Scheduled cleanup job finished,119.6,0.2,40.57,51.39
+2026-01-15 09:15:00,notification-service,INFO,Request completed successfully in 4744ms,128.0,1.4,49.79,60.85
+2026-01-15 09:15:00,order-service,INFO,Metrics exported successfully (trace_id=d2eba386),89.2,0.03,40.85,57.94
+2026-01-15 09:15:00,payment-service,INFO,Cache hit for key product_42829,98.3,0.43,44.47,54.8
+2026-01-15 09:16:00,api-gateway,INFO,User login successful for user_36470 (trace_id=f593d782),93.7,0.61,41.04,55.4
+2026-01-15 09:16:00,auth-service,INFO,[auth-service] Heartbeat OK (trace_id=cdfc4f30),157.8,0.53,58.74,59.24
+2026-01-15 09:16:00,inventory-db,INFO,Request completed successfully in 8700ms,109.8,0.43,50.57,48.92
+2026-01-15 09:16:00,notification-service,WARN,"Retrying request, attempt 1 of 3",99.8,1.34,35.78,52.39
+2026-01-15 09:16:00,order-service,INFO,Health check passed,122.0,0.99,47.95,46.93
+2026-01-15 09:16:00,payment-service,INFO,Scheduled cleanup job finished,139.3,0.28,50.52,61.73
+2026-01-15 09:17:00,api-gateway,INFO,Order 77186 created (trace_id=bbb9cd19),113.4,0.46,39.08,44.99
+2026-01-15 09:17:00,auth-service,INFO,Heartbeat OK (trace_id=e7cd69ef),120.5,0.1,39.76,49.08
+2026-01-15 09:17:00,inventory-db,INFO,Metrics exported successfully,139.0,0.69,44.39,51.39
+2026-01-15 09:17:00,notification-service,INFO,Order 13459 created (trace_id=d66d0a39),125.2,0.47,46.97,54.38
+2026-01-15 09:17:00,order-service,INFO,Heartbeat OK,118.5,0.2,42.45,58.38
+2026-01-15 09:17:00,payment-service,WARN,"Slow response from cache, 885ms",106.4,1.13,46.35,57.53
+2026-01-15 09:18:00,api-gateway,INFO,Payment 41574 processed,81.8,1.12,46.14,56.71
+2026-01-15 09:18:00,auth-service,WARN,"Slow response from cache, 6630ms",93.2,0.63,34.33,52.96
+2026-01-15 09:18:00,inventory-db,INFO,User login successful for user_69112,120.6,0.91,49.4,53.6
+2026-01-15 09:18:00,notification-service,INFO,Request completed successfully in 601ms,124.3,1.55,37.97,51.12
+2026-01-15 09:18:00,order-service,INFO,Health check passed,113.4,1.22,46.06,54.42
+2026-01-15 09:18:00,payment-service,INFO,[payment-service] Order 91140 created,164.5,1.42,43.04,52.78
+2026-01-15 09:19:00,api-gateway,INFO,Metrics exported successfully,95.4,1.93,30.73,47.45
+2026-01-15 09:19:00,auth-service,WARN,Deprecated API version used by client,148.1,1.13,42.26,52.27
+2026-01-15 09:19:00,inventory-db,INFO,Configuration reloaded,136.5,0.39,48.35,58.12
+2026-01-15 09:19:00,notification-service,INFO,Configuration reloaded,120.0,0.77,47.36,51.28
+2026-01-15 09:19:00,order-service,INFO,Cache hit for key product_43870,75.6,1.22,35.64,61.91
+2026-01-15 09:19:00,payment-service,INFO,Health check passed (trace_id=e5ee1942),128.6,0.63,28.61,51.51
+2026-01-15 09:20:00,api-gateway,INFO,User login successful for user_88837,83.5,0.91,45.72,56.49
+2026-01-15 09:20:00,auth-service,INFO,Configuration reloaded,107.5,0.71,51.53,52.93
+2026-01-15 09:20:00,inventory-db,INFO,Metrics exported successfully,87.7,0.04,48.8,60.49
+2026-01-15 09:20:00,notification-service,INFO,Metrics exported successfully,141.8,1.03,37.88,54.33
+2026-01-15 09:20:00,order-service,INFO,Order 42488 created,121.0,0.91,52.76,62.01
+2026-01-15 09:20:00,payment-service,INFO,Payment 43562 processed (trace_id=e007d999),108.0,1.0,34.69,52.77
+2026-01-15 09:21:00,api-gateway,INFO,Health check passed,119.0,0.41,44.31,54.45
+2026-01-15 09:21:00,auth-service,INFO,Health check passed,135.4,1.27,41.49,49.38
+2026-01-15 09:21:00,inventory-db,INFO,Metrics exported successfully,146.1,0.95,39.17,60.35
+2026-01-15 09:21:00,notification-service,INFO,Request completed successfully in 6121ms,114.2,1.44,39.6,47.93
+2026-01-15 09:21:00,order-service,WARN,"[order-service] Retrying request, attempt 1 of 3",122.8,1.24,39.23,52.09
+2026-01-15 09:21:00,payment-service,INFO,Order 67995 created,114.8,1.47,43.76,57.74
+2026-01-15 09:22:00,api-gateway,INFO,[api-gateway] Scheduled cleanup job finished,96.5,0.21,44.71,53.43
+2026-01-15 09:22:00,auth-service,INFO,Heartbeat OK,124.0,0.62,47.02,57.17
+2026-01-15 09:22:00,inventory-db,INFO,Heartbeat OK,105.1,0.63,50.05,68.81
+2026-01-15 09:22:00,notification-service,WARN,Deprecated API version used by client,179.8,0.57,53.14,53.83
+2026-01-15 09:22:00,order-service,INFO,[order-service] Heartbeat OK (trace_id=26cdbcda),104.2,0.86,46.16,52.28
+2026-01-15 09:22:00,payment-service,INFO,[payment-service] User login successful for user_2948,102.0,0.36,47.32,64.09
+2026-01-15 09:23:00,api-gateway,INFO,Cache hit for key product_17734,130.5,0.77,45.52,54.63
+2026-01-15 09:23:00,auth-service,INFO,Payment 18763 processed,130.0,0.8,43.53,56.15
+2026-01-15 09:23:00,inventory-db,INFO,Health check passed (trace_id=31e02d97),89.3,1.25,44.39,53.04
+2026-01-15 09:23:00,notification-service,INFO,User login successful for user_10268,149.3,0.42,35.02,46.32
+2026-01-15 09:23:00,order-service,INFO,Scheduled cleanup job finished,122.4,1.11,43.34,56.33
+2026-01-15 09:23:00,payment-service,INFO,Configuration reloaded,134.8,0.61,35.63,49.58
+2026-01-15 09:24:00,api-gateway,INFO,Scheduled cleanup job finished,128.2,0.71,38.36,52.3
+2026-01-15 09:24:00,auth-service,INFO,Payment 93508 processed,128.5,0.61,40.33,56.83
+2026-01-15 09:24:00,inventory-db,INFO,Health check passed,93.7,0.54,34.34,55.39
+2026-01-15 09:24:00,notification-service,WARN,"Retrying request, attempt 1 of 3",105.1,0.06,34.77,56.32
+2026-01-15 09:24:00,order-service,INFO,[order-service] Order 22813 created,145.7,1.74,50.15,58.69
+2026-01-15 09:24:00,payment-service,INFO,Request completed successfully in 6815ms,159.2,0.22,38.61,54.82
+2026-01-15 09:25:00,api-gateway,INFO,Payment 93032 processed,120.8,0.22,41.23,51.94
+2026-01-15 09:25:00,auth-service,INFO,Request completed successfully in 1984ms,112.2,0.97,65.1,52.47
+2026-01-15 09:25:00,inventory-db,INFO,Scheduled cleanup job finished,110.7,1.13,40.41,58.01
+2026-01-15 09:25:00,notification-service,INFO,User login successful for user_75220,71.1,0.96,47.13,46.75
+2026-01-15 09:25:00,order-service,INFO,User login successful for user_57114,108.6,1.38,41.03,53.26
+2026-01-15 09:25:00,payment-service,WARN,"Retrying request, attempt 1 of 3",121.8,1.36,46.21,52.92
+2026-01-15 09:26:00,api-gateway,INFO,Cache hit for key product_79299,69.7,0.86,47.61,46.59
+2026-01-15 09:26:00,auth-service,INFO,User login successful for user_73835,125.9,1.75,43.64,61.46
+2026-01-15 09:26:00,inventory-db,INFO,[inventory-db] Health check passed,150.4,0.35,40.92,51.37
+2026-01-15 09:26:00,notification-service,INFO,Heartbeat OK,152.5,1.03,41.32,57.89
+2026-01-15 09:26:00,order-service,INFO,Metrics exported successfully,130.0,0.5,36.8,54.77
+2026-01-15 09:26:00,payment-service,INFO,Health check passed,147.1,0.91,29.83,51.09
+2026-01-15 09:27:00,api-gateway,INFO,Request completed successfully in 527ms,113.3,0.22,46.26,54.85
+2026-01-15 09:27:00,auth-service,INFO,[auth-service] Configuration reloaded (trace_id=cb7755f7),169.9,0.98,39.49,55.94
+2026-01-15 09:27:00,inventory-db,INFO,Request completed successfully in 6930ms,141.3,0.94,46.66,54.05
+2026-01-15 09:27:00,notification-service,INFO,[notification-service] Configuration reloaded,130.9,1.24,40.29,59.68
+2026-01-15 09:27:00,order-service,INFO,[order-service] Heartbeat OK,99.6,0.43,30.6,58.47
+2026-01-15 09:27:00,payment-service,INFO,Health check passed (trace_id=af8a4344),106.2,0.55,29.68,56.8
+2026-01-15 09:28:00,api-gateway,INFO,[api-gateway] Heartbeat OK,124.3,1.36,44.79,64.23
+2026-01-15 09:28:00,auth-service,INFO,Health check passed,76.1,0.9,39.92,41.31
+2026-01-15 09:28:00,inventory-db,INFO,Cache hit for key product_70305,192.3,0.85,48.28,57.51
+2026-01-15 09:28:00,notification-service,INFO,Order 5089 created,127.4,1.11,42.41,46.48
+2026-01-15 09:28:00,order-service,INFO,Order 87537 created,200.9,0.71,41.86,57.51
+2026-01-15 09:28:00,payment-service,INFO,Heartbeat OK,133.8,0.04,41.66,57.56
+2026-01-15 09:29:00,api-gateway,INFO,Metrics exported successfully,128.0,1.33,32.84,64.9
+2026-01-15 09:29:00,auth-service,INFO,User login successful for user_83145,127.0,0.49,46.11,51.8
+2026-01-15 09:29:00,inventory-db,INFO,Heartbeat OK,127.5,1.03,35.78,51.1
+2026-01-15 09:29:00,notification-service,INFO,Configuration reloaded,104.6,0.86,58.38,57.97
+2026-01-15 09:29:00,order-service,INFO,Request completed successfully in 5135ms,138.8,0.72,35.73,61.28
+2026-01-15 09:29:00,payment-service,INFO,Payment 70346 processed,177.9,0.69,45.1,47.8
+2026-01-15 09:30:00,api-gateway,INFO,Order 75998 created,92.0,1.34,47.3,61.61
+2026-01-15 09:30:00,auth-service,INFO,Payment 54610 processed,135.2,0.42,46.4,54.71
+2026-01-15 09:30:00,inventory-db,INFO,Cache hit for key product_89595 (trace_id=bc1a754f),123.3,0.33,48.75,57.81
+2026-01-15 09:30:00,notification-service,INFO,[notification-service] Heartbeat OK,94.6,1.38,36.33,52.54
+2026-01-15 09:30:00,order-service,INFO,Heartbeat OK,179.0,0.87,47.95,56.57
+2026-01-15 09:30:00,payment-service,INFO,User login successful for user_60918,96.4,1.27,40.13,49.69
+2026-01-15 09:31:00,api-gateway,INFO,Health check passed,115.3,0.56,51.81,58.53
+2026-01-15 09:31:00,auth-service,INFO,[auth-service] Request completed successfully in 568ms,102.7,1.53,49.03,59.83
+2026-01-15 09:31:00,inventory-db,INFO,Cache hit for key product_89570,90.4,0.74,43.32,61.55
+2026-01-15 09:31:00,notification-service,INFO,Payment 70153 processed,85.6,0.29,41.78,60.4
+2026-01-15 09:31:00,order-service,INFO,Payment 36333 processed (trace_id=6c69cbda),144.9,0.53,54.41,50.83
+2026-01-15 09:31:00,payment-service,INFO,Metrics exported successfully,154.6,0.63,27.65,60.75
+2026-01-15 09:32:00,api-gateway,INFO,Payment 79250 processed,104.4,1.06,50.78,51.62
+2026-01-15 09:32:00,auth-service,WARN,"Slow response from cache, 5443ms",95.8,0.24,44.7,53.5
+2026-01-15 09:32:00,inventory-db,INFO,User login successful for user_37606,103.6,0.37,36.47,49.94
+2026-01-15 09:32:00,notification-service,INFO,Heartbeat OK,181.9,1.0,44.93,51.9
+2026-01-15 09:32:00,order-service,INFO,Payment 60154 processed,134.8,1.16,28.77,46.35
+2026-01-15 09:32:00,payment-service,INFO,Payment 79772 processed,153.5,0.57,43.79,56.4
+2026-01-15 09:33:00,api-gateway,INFO,[api-gateway] Order 28320 created,108.3,0.73,45.44,62.21
+2026-01-15 09:33:00,auth-service,INFO,Metrics exported successfully (trace_id=9006dee6),173.6,0.34,33.78,53.75
+2026-01-15 09:33:00,inventory-db,INFO,Cache hit for key product_75451 (trace_id=ab10bba2),80.1,0.72,49.78,44.13
+2026-01-15 09:33:00,notification-service,INFO,Cache hit for key product_76113,161.1,1.06,37.26,53.14
+2026-01-15 09:33:00,order-service,INFO,Health check passed (trace_id=8cf6f832),156.1,0.85,35.42,59.49
+2026-01-15 09:33:00,payment-service,INFO,[payment-service] User login successful for user_65925,86.4,1.1,34.51,57.42
+2026-01-15 09:34:00,api-gateway,INFO,Metrics exported successfully,149.6,0.61,32.98,54.72
+2026-01-15 09:34:00,auth-service,INFO,Request completed successfully in 8917ms,118.0,0.75,47.61,51.69
+2026-01-15 09:34:00,inventory-db,INFO,Health check passed,106.6,1.11,38.71,55.88
+2026-01-15 09:34:00,notification-service,INFO,Payment 35643 processed,114.5,0.75,43.69,53.09
+2026-01-15 09:34:00,order-service,INFO,Payment 33168 processed,104.0,1.01,46.72,53.65
+2026-01-15 09:34:00,payment-service,INFO,Cache hit for key product_77251,96.4,0.17,48.33,52.34
+2026-01-15 09:35:00,api-gateway,INFO,Request completed successfully in 5795ms,108.6,0.63,50.56,54.66
+2026-01-15 09:35:00,auth-service,INFO,Scheduled cleanup job finished,172.1,0.59,41.8,58.33
+2026-01-15 09:35:00,inventory-db,ERROR,Too many connections to PostgreSQL server,1459.8,9.42,48.55,62.05
+2026-01-15 09:35:00,notification-service,INFO,Cache hit for key product_67465,167.3,1.67,47.41,60.84
+2026-01-15 09:35:00,order-service,INFO,Configuration reloaded,149.1,0.84,53.29,53.57
+2026-01-15 09:35:00,payment-service,INFO,Health check passed,106.6,0.81,43.18,52.94
+2026-01-15 09:36:00,api-gateway,INFO,User login successful for user_92851,125.8,0.15,43.01,53.54
+2026-01-15 09:36:00,auth-service,INFO,Order 54835 created,138.3,1.78,42.04,52.76
+2026-01-15 09:36:00,inventory-db,ERROR,[inventory-db] Replication lag of 175s detected on replica (trace_id=a782efa5),1976.0,11.69,56.19,67.64
+2026-01-15 09:36:00,notification-service,INFO,Order 30524 created (trace_id=3b20fc2a),86.4,1.03,37.71,44.85
+2026-01-15 09:36:00,order-service,INFO,Cache hit for key product_44398,114.1,1.14,46.85,53.87
+2026-01-15 09:36:00,payment-service,INFO,Order 1987 created,149.5,1.08,45.79,57.1
+2026-01-15 09:37:00,api-gateway,INFO,User login successful for user_96661,146.0,0.08,26.39,55.46
+2026-01-15 09:37:00,auth-service,INFO,Health check passed (trace_id=1c12e219),128.3,0.38,33.74,51.98
+2026-01-15 09:37:00,inventory-db,ERROR,Database query timeout after 4094ms on table orders,2286.8,13.53,57.4,69.26
+2026-01-15 09:37:00,notification-service,INFO,Request completed successfully in 6754ms (trace_id=e605c9f6),142.0,1.48,52.0,58.36
+2026-01-15 09:37:00,order-service,INFO,Request completed successfully in 3591ms (trace_id=a1f973bf),112.6,0.24,47.06,47.32
+2026-01-15 09:37:00,payment-service,INFO,User login successful for user_22829 (trace_id=a1661ac8),118.9,0.39,48.48,52.36
+2026-01-15 09:38:00,api-gateway,INFO,Heartbeat OK,113.9,1.2,46.83,52.82
+2026-01-15 09:38:00,auth-service,INFO,[auth-service] Heartbeat OK,137.2,0.98,40.18,51.29
+2026-01-15 09:38:00,inventory-db,ERROR,Database query timeout after 6566ms on table orders,2219.6,13.11,55.94,69.19
+2026-01-15 09:38:00,notification-service,INFO,Metrics exported successfully,142.2,1.26,36.22,54.99
+2026-01-15 09:38:00,order-service,INFO,Scheduled cleanup job finished,149.9,1.62,48.41,53.35
+2026-01-15 09:38:00,payment-service,INFO,Payment 46588 processed,124.7,0.37,40.46,49.33
+2026-01-15 09:39:00,api-gateway,INFO,Request completed successfully in 8348ms,124.4,0.7,33.82,54.58
+2026-01-15 09:39:00,auth-service,INFO,Metrics exported successfully (trace_id=1c2090a3),140.8,1.16,39.18,57.78
+2026-01-15 09:39:00,inventory-db,CRITICAL,Connection pool exhausted: all 212 connections in use,2364.4,13.98,57.71,70.26
+2026-01-15 09:39:00,notification-service,INFO,User login successful for user_42731,108.3,0.72,43.29,52.07
+2026-01-15 09:39:00,order-service,INFO,Configuration reloaded (trace_id=c78414cc),131.4,1.01,48.96,42.05
+2026-01-15 09:39:00,payment-service,INFO,Order 71061 created,272.5,0.9,49.91,54.83
+2026-01-15 09:40:00,api-gateway,INFO,User login successful for user_68038,129.4,0.91,35.26,49.58
+2026-01-15 09:40:00,auth-service,INFO,Heartbeat OK (trace_id=1d3434c6),152.9,0.24,44.07,52.34
+2026-01-15 09:40:00,inventory-db,ERROR,Replication lag of 119s detected on replica,2409.3,14.21,57.81,70.38
+2026-01-15 09:40:00,notification-service,INFO,Heartbeat OK,117.2,1.78,46.73,53.32
+2026-01-15 09:40:00,order-service,INFO,Heartbeat OK,155.2,1.06,56.53,53.29
+2026-01-15 09:40:00,payment-service,INFO,Payment 62867 processed,131.2,0.73,52.86,59.31
+2026-01-15 09:41:00,api-gateway,INFO,Heartbeat OK,128.4,1.3,39.95,53.13
+2026-01-15 09:41:00,auth-service,INFO,Heartbeat OK,136.6,0.48,34.22,46.62
+2026-01-15 09:41:00,inventory-db,CRITICAL,Database query timeout after 8414ms on table sessions,2279.2,13.49,56.5,69.23
+2026-01-15 09:41:00,notification-service,INFO,Cache hit for key product_83214 (trace_id=3b551f14),104.5,1.36,66.73,59.18
+2026-01-15 09:41:00,order-service,INFO,[order-service] Request completed successfully in 2366ms (trace_id=624258fc),95.0,1.14,49.36,50.77
+2026-01-15 09:41:00,payment-service,INFO,Cache hit for key product_45952,133.7,0.66,47.06,49.72
+2026-01-15 09:42:00,api-gateway,INFO,Metrics exported successfully,100.2,0.07,53.36,66.4
+2026-01-15 09:42:00,auth-service,INFO,Cache hit for key product_69537,130.3,1.02,44.81,58.11
+2026-01-15 09:42:00,inventory-db,ERROR,[inventory-db] Replication lag of 152s detected on replica,1952.6,11.56,58.18,65.93
+2026-01-15 09:42:00,notification-service,INFO,Cache hit for key product_17195,128.2,0.82,32.23,58.64
+2026-01-15 09:42:00,order-service,INFO,Configuration reloaded,132.5,1.38,36.41,64.74
+2026-01-15 09:42:00,payment-service,INFO,Order 16912 created (trace_id=d52bab45),121.7,0.88,53.58,60.07
+2026-01-15 09:43:00,api-gateway,INFO,Metrics exported successfully,128.9,0.41,41.92,54.65
+2026-01-15 09:43:00,auth-service,INFO,Configuration reloaded (trace_id=130ebc0b),131.1,1.61,45.38,51.49
+2026-01-15 09:43:00,inventory-db,ERROR,Too many connections to PostgreSQL server,1619.2,9.98,52.92,60.48
+2026-01-15 09:43:00,notification-service,INFO,Configuration reloaded,156.0,0.75,46.52,62.99
+2026-01-15 09:43:00,order-service,INFO,Cache hit for key product_14949,115.3,1.2,41.86,57.63
+2026-01-15 09:43:00,payment-service,INFO,Health check passed,153.6,0.89,40.09,58.31
+2026-01-15 09:44:00,api-gateway,INFO,Cache hit for key product_91388 (trace_id=88a14a48),157.2,0.89,46.46,53.81
+2026-01-15 09:44:00,auth-service,INFO,Heartbeat OK,157.1,0.34,36.73,56.79
+2026-01-15 09:44:00,inventory-db,INFO,Health check passed,147.6,1.49,46.31,44.65
+2026-01-15 09:44:00,notification-service,INFO,User login successful for user_29387,149.1,0.29,62.27,51.29
+2026-01-15 09:44:00,order-service,INFO,Order 33346 created (trace_id=792016b2),120.9,0.95,46.7,54.25
+2026-01-15 09:44:00,payment-service,INFO,Payment 5554 processed,111.9,0.32,50.83,50.55
+2026-01-15 09:45:00,api-gateway,INFO,Cache hit for key product_54085 (trace_id=6115c01b),93.4,1.0,56.86,57.66
+2026-01-15 09:45:00,auth-service,INFO,Heartbeat OK,145.4,0.01,40.25,56.87
+2026-01-15 09:45:00,inventory-db,INFO,Health check passed,142.7,0.06,28.12,51.48
+2026-01-15 09:45:00,notification-service,INFO,Scheduled cleanup job finished (trace_id=5db28c39),136.6,0.73,40.47,45.04
+2026-01-15 09:45:00,order-service,INFO,Payment 41898 processed,85.5,0.74,39.58,56.17
+2026-01-15 09:45:00,payment-service,INFO,Payment 60399 processed,165.9,0.45,46.4,54.87
+2026-01-15 09:46:00,api-gateway,INFO,User login successful for user_48018,146.4,0.61,55.83,58.54
+2026-01-15 09:46:00,auth-service,INFO,User login successful for user_32645,105.4,1.29,38.67,61.02
+2026-01-15 09:46:00,inventory-db,WARN,Deprecated API version used by client,115.0,0.95,49.29,55.9
+2026-01-15 09:46:00,notification-service,INFO,Heartbeat OK (trace_id=d7ee3f23),151.9,0.69,52.33,51.73
+2026-01-15 09:46:00,order-service,INFO,Heartbeat OK,147.3,0.01,43.5,59.07
+2026-01-15 09:46:00,payment-service,INFO,[payment-service] Configuration reloaded,121.7,1.0,37.75,54.62
+2026-01-15 09:47:00,api-gateway,INFO,Scheduled cleanup job finished,130.2,1.31,43.99,49.43
+2026-01-15 09:47:00,auth-service,WARN,Deprecated API version used by client,113.6,1.56,51.07,60.22
+2026-01-15 09:47:00,inventory-db,INFO,Health check passed (trace_id=104c167a),102.8,0.84,40.56,52.06
+2026-01-15 09:47:00,notification-service,INFO,Scheduled cleanup job finished,88.8,0.91,46.25,53.53
+2026-01-15 09:47:00,order-service,INFO,User login successful for user_94040,131.6,0.94,41.68,51.47
+2026-01-15 09:47:00,payment-service,INFO,[payment-service] Request completed successfully in 7390ms,111.7,1.34,44.09,57.97
+2026-01-15 09:48:00,api-gateway,INFO,Health check passed (trace_id=2c80b0c8),113.5,0.91,43.06,53.96
+2026-01-15 09:48:00,auth-service,INFO,Scheduled cleanup job finished,134.9,0.63,27.06,52.12
+2026-01-15 09:48:00,inventory-db,INFO,[inventory-db] Request completed successfully in 1295ms,110.1,0.31,48.01,52.44
+2026-01-15 09:48:00,notification-service,INFO,Heartbeat OK,171.8,0.6,34.77,52.3
+2026-01-15 09:48:00,order-service,INFO,User login successful for user_89067,105.7,0.68,40.49,54.16
+2026-01-15 09:48:00,payment-service,INFO,Payment 11770 processed (trace_id=b9b8a591),143.5,1.45,41.0,58.13
+2026-01-15 09:49:00,api-gateway,INFO,Health check passed,171.7,0.19,35.97,59.59
+2026-01-15 09:49:00,auth-service,INFO,Configuration reloaded,114.0,0.31,42.39,54.17
+2026-01-15 09:49:00,inventory-db,INFO,Payment 23457 processed,117.0,0.37,33.02,47.46
+2026-01-15 09:49:00,notification-service,INFO,Health check passed,126.7,1.09,47.59,60.6
+2026-01-15 09:49:00,order-service,INFO,Configuration reloaded,98.0,0.68,50.33,53.52
+2026-01-15 09:49:00,payment-service,INFO,[payment-service] Configuration reloaded (trace_id=2d55d368),139.3,0.36,40.88,48.38
+2026-01-15 09:50:00,api-gateway,INFO,Cache hit for key product_34741,144.5,0.33,39.97,56.35
+2026-01-15 09:50:00,auth-service,INFO,Configuration reloaded,119.4,1.53,33.21,48.55
+2026-01-15 09:50:00,inventory-db,INFO,[inventory-db] Configuration reloaded,127.8,0.57,53.09,47.19
+2026-01-15 09:50:00,notification-service,INFO,Scheduled cleanup job finished,99.2,0.77,38.62,65.89
+2026-01-15 09:50:00,order-service,INFO,Health check passed,108.4,2.04,42.76,68.06
+2026-01-15 09:50:00,payment-service,INFO,[payment-service] Configuration reloaded,85.8,1.32,45.35,48.15
+2026-01-15 09:51:00,api-gateway,INFO,Cache hit for key product_40742 (trace_id=905bcab4),101.4,1.2,47.84,55.61
+2026-01-15 09:51:00,auth-service,INFO,[auth-service] Payment 37815 processed,106.7,0.7,41.84,63.39
+2026-01-15 09:51:00,inventory-db,INFO,Scheduled cleanup job finished,125.8,0.43,55.22,46.8
+2026-01-15 09:51:00,notification-service,INFO,Cache hit for key product_85290,119.6,0.01,45.49,56.39
+2026-01-15 09:51:00,order-service,INFO,Order 76004 created,157.6,0.09,37.85,55.71
+2026-01-15 09:51:00,payment-service,INFO,Cache hit for key product_29713,134.3,1.16,52.14,59.93
+2026-01-15 09:52:00,api-gateway,INFO,Payment 70227 processed,129.5,1.03,47.66,62.77
+2026-01-15 09:52:00,auth-service,WARN,"Slow response from cache, 2346ms",122.1,1.36,50.82,57.21
+2026-01-15 09:52:00,inventory-db,INFO,[inventory-db] Order 88766 created,152.5,0.87,58.28,58.43
+2026-01-15 09:52:00,notification-service,WARN,"Slow response from cache, 7636ms (trace_id=71df5588)",113.8,0.55,34.41,45.56
+2026-01-15 09:52:00,order-service,INFO,[order-service] Heartbeat OK,125.2,0.86,40.52,45.26
+2026-01-15 09:52:00,payment-service,INFO,Request completed successfully in 5583ms (trace_id=f6c45044),99.8,0.77,42.61,55.39
+2026-01-15 09:53:00,api-gateway,INFO,Payment 87665 processed,140.6,0.15,45.69,51.61
+2026-01-15 09:53:00,auth-service,INFO,[auth-service] Request completed successfully in 1264ms,137.2,0.78,40.5,61.97
+2026-01-15 09:53:00,inventory-db,INFO,[inventory-db] Health check passed,125.5,0.1,24.47,45.5
+2026-01-15 09:53:00,notification-service,INFO,Request completed successfully in 4157ms,130.0,0.36,50.06,59.68
+2026-01-15 09:53:00,order-service,INFO,User login successful for user_35897,120.2,1.44,45.84,59.41
+2026-01-15 09:53:00,payment-service,WARN,"Slow response from cache, 3900ms",111.3,1.02,45.7,56.9
+2026-01-15 09:54:00,api-gateway,INFO,Configuration reloaded (trace_id=a6aea5ee),123.7,1.47,51.9,55.41
+2026-01-15 09:54:00,auth-service,INFO,Health check passed,149.8,0.61,45.91,53.41
+2026-01-15 09:54:00,inventory-db,INFO,Configuration reloaded,168.3,1.18,49.24,58.67
+2026-01-15 09:54:00,notification-service,INFO,Metrics exported successfully,134.8,0.17,28.05,51.26
+2026-01-15 09:54:00,order-service,INFO,Request completed successfully in 4265ms,138.2,1.32,60.45,68.58
+2026-01-15 09:54:00,payment-service,INFO,User login successful for user_4994,146.9,1.19,34.68,56.48
+2026-01-15 09:55:00,api-gateway,INFO,Cache hit for key product_94226 (trace_id=5242aab9),143.0,1.1,39.55,52.4
+2026-01-15 09:55:00,auth-service,INFO,Order 32705 created,128.1,0.57,39.04,44.75
+2026-01-15 09:55:00,inventory-db,INFO,Order 6155 created,151.1,1.19,47.56,50.81
+2026-01-15 09:55:00,notification-service,INFO,Scheduled cleanup job finished,77.2,0.68,43.79,54.7
+2026-01-15 09:55:00,order-service,INFO,Health check passed,249.8,1.46,47.44,50.43
+2026-01-15 09:55:00,payment-service,INFO,Payment 7182 processed,110.6,1.67,45.62,62.41
+2026-01-15 09:56:00,api-gateway,INFO,Order 2183 created,126.5,1.47,44.58,62.45
+2026-01-15 09:56:00,auth-service,INFO,Configuration reloaded (trace_id=fde8a846),173.6,1.54,58.55,62.66
+2026-01-15 09:56:00,inventory-db,INFO,Request completed successfully in 7227ms,117.1,0.98,24.06,57.94
+2026-01-15 09:56:00,notification-service,INFO,Scheduled cleanup job finished,281.5,1.27,54.01,58.68
+2026-01-15 09:56:00,order-service,INFO,[order-service] Cache hit for key product_58780,132.6,0.2,56.07,73.16
+2026-01-15 09:56:00,payment-service,WARN,Deprecated API version used by client,137.4,0.26,52.89,48.85
+2026-01-15 09:57:00,api-gateway,INFO,Payment 65481 processed,142.7,0.61,50.1,45.24
+2026-01-15 09:57:00,auth-service,INFO,[auth-service] Order 34254 created,126.3,1.52,51.38,55.47
+2026-01-15 09:57:00,inventory-db,INFO,Scheduled cleanup job finished (trace_id=fb800a2a),147.4,0.64,40.07,56.45
+2026-01-15 09:57:00,notification-service,WARN,"Retrying request, attempt 1 of 3",165.8,0.25,48.62,56.32
+2026-01-15 09:57:00,order-service,INFO,[order-service] Cache hit for key product_31123 (trace_id=88e3bf58),143.7,0.36,49.12,55.01
+2026-01-15 09:57:00,payment-service,WARN,"Slow response from cache, 1739ms (trace_id=1f71b9cc)",121.2,1.08,50.52,60.22
+2026-01-15 09:58:00,api-gateway,INFO,Metrics exported successfully,159.6,0.65,49.08,51.65
+2026-01-15 09:58:00,auth-service,WARN,"[auth-service] Slow response from cache, 7546ms (trace_id=867fee62)",198.2,0.27,52.88,55.67
+2026-01-15 09:58:00,inventory-db,INFO,Configuration reloaded,63.2,0.8,44.61,58.99
+2026-01-15 09:58:00,notification-service,INFO,Order 30586 created,105.5,0.2,42.57,54.14
+2026-01-15 09:58:00,order-service,INFO,Heartbeat OK,134.8,1.15,30.54,60.46
+2026-01-15 09:58:00,payment-service,INFO,Order 5417 created,172.1,0.71,48.2,50.78
+2026-01-15 09:59:00,api-gateway,INFO,Cache hit for key product_56976,113.1,0.24,52.49,52.35
+2026-01-15 09:59:00,auth-service,INFO,Request completed successfully in 3542ms,150.0,0.33,35.7,55.28
+2026-01-15 09:59:00,inventory-db,INFO,Heartbeat OK,159.0,0.57,55.15,61.13
+2026-01-15 09:59:00,notification-service,INFO,Payment 20609 processed,160.3,0.73,43.38,55.91
+2026-01-15 09:59:00,order-service,INFO,Request completed successfully in 2092ms,146.6,0.69,48.32,52.44
+2026-01-15 09:59:00,payment-service,INFO,Configuration reloaded (trace_id=2bb63c28),127.5,0.68,41.27,58.43
+2026-01-15 10:00:00,api-gateway,WARN,Deprecated API version used by client,132.5,2.07,47.78,58.32
+2026-01-15 10:00:00,auth-service,INFO,Configuration reloaded,138.9,1.69,37.29,58.22
+2026-01-15 10:00:00,inventory-db,INFO,Scheduled cleanup job finished,137.3,1.38,39.4,51.32
+2026-01-15 10:00:00,notification-service,INFO,Configuration reloaded,155.6,2.31,42.03,58.27
+2026-01-15 10:00:00,order-service,INFO,Order 93580 created,101.8,1.69,39.67,53.94
+2026-01-15 10:00:00,payment-service,INFO,Metrics exported successfully (trace_id=f4b0d1eb),103.8,1.35,38.16,61.47
+2026-01-15 10:01:00,api-gateway,INFO,Cache hit for key product_45978,117.8,0.71,42.83,58.03
+2026-01-15 10:01:00,auth-service,INFO,Health check passed,117.0,0.62,52.56,57.67
+2026-01-15 10:01:00,inventory-db,INFO,User login successful for user_92118,136.9,1.06,46.66,50.37
+2026-01-15 10:01:00,notification-service,INFO,Heartbeat OK,150.2,0.51,64.05,57.61
+2026-01-15 10:01:00,order-service,INFO,Order 19326 created (trace_id=77f94850),129.0,0.95,36.13,49.01
+2026-01-15 10:01:00,payment-service,INFO,Heartbeat OK (trace_id=42133cc4),105.3,1.19,44.27,47.99
+2026-01-15 10:02:00,api-gateway,INFO,Payment 57925 processed (trace_id=e49c75c8),130.8,1.59,47.53,61.98
+2026-01-15 10:02:00,auth-service,INFO,Scheduled cleanup job finished,65.9,0.12,43.63,47.05
+2026-01-15 10:02:00,inventory-db,WARN,Deprecated API version used by client,90.1,1.8,44.82,53.0
+2026-01-15 10:02:00,notification-service,INFO,Request completed successfully in 8890ms (trace_id=809b139c),163.7,0.95,44.64,64.83
+2026-01-15 10:02:00,order-service,INFO,Scheduled cleanup job finished,120.0,0.94,38.07,49.9
+2026-01-15 10:02:00,payment-service,INFO,[payment-service] Scheduled cleanup job finished,109.6,0.28,35.64,56.82
+2026-01-15 10:03:00,api-gateway,INFO,Heartbeat OK,101.9,0.48,37.97,47.13
+2026-01-15 10:03:00,auth-service,INFO,User login successful for user_89144,124.6,0.8,43.18,60.43
+2026-01-15 10:03:00,inventory-db,INFO,Request completed successfully in 1965ms,184.7,0.62,47.77,51.33
+2026-01-15 10:03:00,notification-service,INFO,Request completed successfully in 4610ms,97.7,0.6,44.9,39.49
+2026-01-15 10:03:00,order-service,INFO,Configuration reloaded,130.0,1.06,58.23,44.32
+2026-01-15 10:03:00,payment-service,INFO,Request completed successfully in 1970ms (trace_id=6487072a),132.3,0.64,36.35,53.46
+2026-01-15 10:04:00,api-gateway,INFO,User login successful for user_45476,115.2,0.88,33.5,58.75
+2026-01-15 10:04:00,auth-service,INFO,Scheduled cleanup job finished,131.9,0.75,47.31,52.36
+2026-01-15 10:04:00,inventory-db,INFO,Configuration reloaded (trace_id=35784ee7),122.2,1.53,42.43,58.43
+2026-01-15 10:04:00,notification-service,INFO,Health check passed,143.9,1.24,39.84,50.56
+2026-01-15 10:04:00,order-service,INFO,Payment 31894 processed (trace_id=2269d53f),126.8,0.7,34.52,61.2
+2026-01-15 10:04:00,payment-service,WARN,"Retrying request, attempt 1 of 3",129.4,0.9,51.43,53.39
+2026-01-15 10:05:00,api-gateway,INFO,Scheduled cleanup job finished,123.6,0.04,49.02,53.53
+2026-01-15 10:05:00,auth-service,INFO,Request completed successfully in 1932ms,170.2,0.75,36.17,52.66
+2026-01-15 10:05:00,inventory-db,INFO,Request completed successfully in 5235ms (trace_id=a97d3499),124.7,0.51,51.44,54.57
+2026-01-15 10:05:00,notification-service,INFO,Order 65331 created,105.9,1.53,41.64,51.54
+2026-01-15 10:05:00,order-service,INFO,Configuration reloaded,113.9,0.9,41.25,49.42
+2026-01-15 10:05:00,payment-service,INFO,Metrics exported successfully (trace_id=d923595a),150.8,0.08,38.52,55.04
+2026-01-15 10:06:00,api-gateway,INFO,Request completed successfully in 2360ms,147.7,0.61,44.55,51.67
+2026-01-15 10:06:00,auth-service,INFO,Cache hit for key product_98147,97.5,0.56,50.35,63.64
+2026-01-15 10:06:00,inventory-db,INFO,Configuration reloaded,153.2,0.72,51.98,55.14
+2026-01-15 10:06:00,notification-service,INFO,User login successful for user_3463,179.7,0.73,49.22,58.59
+2026-01-15 10:06:00,order-service,INFO,Payment 21663 processed,120.1,0.5,53.75,57.22
+2026-01-15 10:06:00,payment-service,INFO,Health check passed (trace_id=728d4a71),133.1,1.21,57.31,49.63
+2026-01-15 10:07:00,api-gateway,INFO,User login successful for user_21336,153.1,1.29,47.08,57.7
+2026-01-15 10:07:00,auth-service,INFO,Configuration reloaded,169.8,0.64,45.04,59.6
+2026-01-15 10:07:00,inventory-db,INFO,Order 52563 created,123.5,0.28,35.66,57.17
+2026-01-15 10:07:00,notification-service,INFO,User login successful for user_59679 (trace_id=272affec),106.7,1.4,40.66,55.58
+2026-01-15 10:07:00,order-service,INFO,Metrics exported successfully,148.1,0.82,50.25,57.02
+2026-01-15 10:07:00,payment-service,INFO,Scheduled cleanup job finished,132.2,0.75,34.93,50.06
+2026-01-15 10:08:00,api-gateway,INFO,[api-gateway] Configuration reloaded,98.7,0.17,33.01,50.4
+2026-01-15 10:08:00,auth-service,INFO,Scheduled cleanup job finished,122.3,0.57,48.25,53.31
+2026-01-15 10:08:00,inventory-db,INFO,Metrics exported successfully,108.7,1.07,52.98,52.75
+2026-01-15 10:08:00,notification-service,INFO,Configuration reloaded,101.1,0.27,39.26,58.73
+2026-01-15 10:08:00,order-service,INFO,Order 69602 created,115.6,0.6,33.5,51.98
+2026-01-15 10:08:00,payment-service,INFO,Configuration reloaded,136.5,0.86,47.79,58.08
+2026-01-15 10:09:00,api-gateway,INFO,Scheduled cleanup job finished (trace_id=7c6f2db1),110.3,1.34,42.31,44.62
+2026-01-15 10:09:00,auth-service,INFO,Scheduled cleanup job finished,143.7,0.97,40.17,45.72
+2026-01-15 10:09:00,inventory-db,INFO,Payment 56022 processed,142.6,0.77,39.9,60.54
+2026-01-15 10:09:00,notification-service,INFO,Heartbeat OK (trace_id=adaf4646),152.4,0.91,41.02,47.33
+2026-01-15 10:09:00,order-service,INFO,Scheduled cleanup job finished,100.6,0.97,44.74,55.56
+2026-01-15 10:09:00,payment-service,INFO,[payment-service] Health check passed,126.4,0.95,36.66,59.01
+2026-01-15 10:10:00,api-gateway,ERROR,No route to host auth.corp.net,1898.0,4.05,36.26,52.82
+2026-01-15 10:10:00,auth-service,INFO,User login successful for user_94208 (trace_id=f4100db1),71.9,0.39,48.42,55.81
+2026-01-15 10:10:00,inventory-db,INFO,Configuration reloaded,104.9,1.11,43.17,45.94
+2026-01-15 10:10:00,notification-service,INFO,Request completed successfully in 845ms,141.4,0.17,42.37,53.37
+2026-01-15 10:10:00,order-service,INFO,[order-service] Health check passed (trace_id=c1686ee0),140.3,0.13,41.85,54.83
+2026-01-15 10:10:00,payment-service,INFO,Health check passed,135.6,1.68,45.96,52.02
+2026-01-15 10:11:00,api-gateway,ERROR,Connection reset by peer on port 8080 (trace_id=b5124af1),2303.0,4.55,34.5,50.66
+2026-01-15 10:11:00,auth-service,INFO,Scheduled cleanup job finished,130.7,0.66,39.86,57.69
+2026-01-15 10:11:00,inventory-db,INFO,Order 84693 created,144.4,1.55,52.92,56.23
+2026-01-15 10:11:00,notification-service,INFO,User login successful for user_27540,128.4,0.9,46.01,57.69
+2026-01-15 10:11:00,order-service,INFO,Scheduled cleanup job finished,148.4,0.1,44.07,52.77
+2026-01-15 10:11:00,payment-service,INFO,Payment 95655 processed,146.4,0.8,37.5,47.63
+2026-01-15 10:12:00,api-gateway,ERROR,DNS resolution failed for host payments.partner.com,2553.1,5.09,31.09,52.28
+2026-01-15 10:12:00,auth-service,INFO,[auth-service] Configuration reloaded,120.0,0.73,51.44,54.6
+2026-01-15 10:12:00,inventory-db,INFO,Metrics exported successfully,130.7,0.77,45.71,57.55
+2026-01-15 10:12:00,notification-service,INFO,Scheduled cleanup job finished,130.7,0.5,41.36,54.21
+2026-01-15 10:12:00,order-service,INFO,Health check passed,121.6,1.07,50.7,55.57
+2026-01-15 10:12:00,payment-service,INFO,Heartbeat OK,146.3,0.61,44.96,66.28
+2026-01-15 10:13:00,api-gateway,ERROR,No route to host cache.internal,2881.0,5.7,34.17,53.41
+2026-01-15 10:13:00,auth-service,INFO,User login successful for user_88586,142.6,1.45,52.62,48.77
+2026-01-15 10:13:00,inventory-db,INFO,Scheduled cleanup job finished,152.9,0.99,49.01,51.25
+2026-01-15 10:13:00,notification-service,INFO,[notification-service] Cache hit for key product_85458 (trace_id=844aa95c),141.0,0.93,43.38,52.47
+2026-01-15 10:13:00,order-service,INFO,Metrics exported successfully,130.1,0.95,41.31,55.58
+2026-01-15 10:13:00,payment-service,INFO,Cache hit for key product_31149 (trace_id=53332626),117.0,1.65,43.55,60.27
+2026-01-15 10:14:00,api-gateway,ERROR,TLS handshake timeout with auth-service (trace_id=e93928ef),2823.9,5.63,36.31,53.43
+2026-01-15 10:14:00,auth-service,WARN,"Slow response from cache, 3202ms",129.5,0.99,51.05,51.05
+2026-01-15 10:14:00,inventory-db,INFO,Health check passed,100.2,1.25,50.46,51.61
+2026-01-15 10:14:00,notification-service,INFO,Health check passed,165.4,0.25,39.42,55.83
+2026-01-15 10:14:00,order-service,INFO,User login successful for user_31517 (trace_id=6c835641),109.2,0.36,43.07,50.07
+2026-01-15 10:14:00,payment-service,INFO,Order 51507 created,90.0,0.54,41.46,56.61
+2026-01-15 10:15:00,api-gateway,ERROR,Connection reset by peer on port 443,2489.0,4.95,36.94,55.87
+2026-01-15 10:15:00,auth-service,INFO,Cache hit for key product_17682,102.3,0.75,48.23,48.72
+2026-01-15 10:15:00,inventory-db,INFO,Health check passed,155.4,0.77,49.09,59.54
+2026-01-15 10:15:00,notification-service,INFO,[notification-service] Configuration reloaded,111.9,0.93,53.29,62.7
+2026-01-15 10:15:00,order-service,INFO,Payment 12982 processed,122.8,0.73,55.55,48.64
+2026-01-15 10:15:00,payment-service,INFO,User login successful for user_2638,183.8,0.52,48.09,49.74
+2026-01-15 10:16:00,api-gateway,ERROR,502 Bad Gateway returned by upstream order-service,1790.0,3.58,36.36,53.28
+2026-01-15 10:16:00,auth-service,INFO,Scheduled cleanup job finished,148.1,1.07,49.0,56.08
+2026-01-15 10:16:00,inventory-db,INFO,Health check passed,133.9,0.53,41.1,53.46
+2026-01-15 10:16:00,notification-service,INFO,Heartbeat OK,115.1,0.87,45.21,43.92
+2026-01-15 10:16:00,order-service,INFO,Scheduled cleanup job finished,151.0,0.32,32.23,50.94
+2026-01-15 10:16:00,payment-service,INFO,Request completed successfully in 3217ms,134.9,0.1,54.95,51.95
+2026-01-15 10:17:00,api-gateway,INFO,Metrics exported successfully,119.1,0.65,44.41,47.33
+2026-01-15 10:17:00,auth-service,INFO,[auth-service] Request completed successfully in 1557ms,142.5,1.0,25.57,59.1
+2026-01-15 10:17:00,inventory-db,INFO,Scheduled cleanup job finished,171.6,0.98,38.16,45.49
+2026-01-15 10:17:00,notification-service,INFO,Health check passed,114.6,0.52,42.32,62.4
+2026-01-15 10:17:00,order-service,INFO,User login successful for user_7557,144.4,1.86,42.54,55.93
+2026-01-15 10:17:00,payment-service,WARN,"Slow response from cache, 2564ms",73.9,1.32,40.33,56.03
+2026-01-15 10:18:00,api-gateway,INFO,Cache hit for key product_11961,121.6,0.29,49.75,51.22
+2026-01-15 10:18:00,auth-service,WARN,Deprecated API version used by client,140.3,1.34,50.3,60.13
+2026-01-15 10:18:00,inventory-db,INFO,Cache hit for key product_88034,112.5,1.06,49.52,48.33
+2026-01-15 10:18:00,notification-service,INFO,Health check passed (trace_id=d98e8d37),202.6,0.41,46.49,55.85
+2026-01-15 10:18:00,order-service,INFO,Configuration reloaded (trace_id=33bf3c76),130.2,0.06,48.41,62.43
+2026-01-15 10:18:00,payment-service,INFO,Payment 4545 processed,118.1,0.92,50.51,50.08
+2026-01-15 10:19:00,api-gateway,INFO,[api-gateway] Scheduled cleanup job finished,160.5,0.16,25.07,50.4
+2026-01-15 10:19:00,auth-service,INFO,Payment 11436 processed,149.2,1.05,42.48,51.34
+2026-01-15 10:19:00,inventory-db,INFO,Heartbeat OK,168.8,1.19,49.99,60.04
+2026-01-15 10:19:00,notification-service,INFO,Configuration reloaded (trace_id=deb18326),127.4,0.22,44.08,50.18
+2026-01-15 10:19:00,order-service,INFO,Configuration reloaded,121.0,1.7,36.26,62.88
+2026-01-15 10:19:00,payment-service,INFO,Order 89540 created,138.3,1.02,44.9,62.75
+2026-01-15 10:20:00,api-gateway,INFO,Scheduled cleanup job finished,117.5,0.78,43.46,48.91
+2026-01-15 10:20:00,auth-service,INFO,Heartbeat OK,151.1,1.7,44.99,56.18
+2026-01-15 10:20:00,inventory-db,INFO,Health check passed,142.8,1.22,47.13,50.65
+2026-01-15 10:20:00,notification-service,INFO,Heartbeat OK,98.8,0.61,33.36,57.75
+2026-01-15 10:20:00,order-service,INFO,Cache hit for key product_3822,91.7,0.43,40.53,56.92
+2026-01-15 10:20:00,payment-service,INFO,Payment 33140 processed,115.9,0.87,44.04,55.51
+2026-01-15 10:21:00,api-gateway,INFO,Scheduled cleanup job finished,120.1,1.24,48.07,57.18
+2026-01-15 10:21:00,auth-service,INFO,[auth-service] Configuration reloaded,126.3,1.47,42.28,57.77
+2026-01-15 10:21:00,inventory-db,WARN,"[inventory-db] Slow response from cache, 3529ms",144.6,0.47,43.26,61.54
+2026-01-15 10:21:00,notification-service,INFO,Scheduled cleanup job finished,133.5,1.01,43.01,54.66
+2026-01-15 10:21:00,order-service,INFO,[order-service] Metrics exported successfully,133.5,1.05,35.65,60.18
+2026-01-15 10:21:00,payment-service,INFO,Payment 15473 processed,103.6,0.72,59.39,56.77
+2026-01-15 10:22:00,api-gateway,INFO,Metrics exported successfully,134.5,0.04,48.97,51.77
+2026-01-15 10:22:00,auth-service,INFO,[auth-service] Request completed successfully in 4385ms,96.8,0.78,34.46,52.44
+2026-01-15 10:22:00,inventory-db,INFO,Heartbeat OK,110.3,1.03,50.5,61.83
+2026-01-15 10:22:00,notification-service,INFO,Configuration reloaded (trace_id=c98ec37a),99.1,0.74,55.76,60.5
+2026-01-15 10:22:00,order-service,INFO,Metrics exported successfully (trace_id=d9eeaf8b),136.5,0.71,45.93,55.94
+2026-01-15 10:22:00,payment-service,INFO,Request completed successfully in 854ms,166.7,0.4,29.06,49.75
+2026-01-15 10:23:00,api-gateway,INFO,Order 92453 created,123.9,0.8,56.03,45.11
+2026-01-15 10:23:00,auth-service,INFO,Scheduled cleanup job finished (trace_id=ea876144),96.1,0.59,40.35,54.26
+2026-01-15 10:23:00,inventory-db,INFO,Scheduled cleanup job finished (trace_id=5e6f12ae),139.1,1.42,44.26,54.02
+2026-01-15 10:23:00,notification-service,INFO,Order 34946 created,119.8,0.89,47.66,50.43
+2026-01-15 10:23:00,order-service,INFO,Payment 1318 processed,149.2,0.65,40.37,61.0
+2026-01-15 10:23:00,payment-service,INFO,Request completed successfully in 2151ms (trace_id=2ff073d5),158.4,0.4,39.32,50.35
+2026-01-15 10:24:00,api-gateway,INFO,Request completed successfully in 6612ms,122.1,0.48,51.99,58.48
+2026-01-15 10:24:00,auth-service,INFO,Scheduled cleanup job finished (trace_id=a66bd7c9),156.2,1.24,48.65,65.62
+2026-01-15 10:24:00,inventory-db,WARN,Deprecated API version used by client,141.5,0.57,34.81,57.71
+2026-01-15 10:24:00,notification-service,INFO,Health check passed,121.1,1.45,52.29,59.3
+2026-01-15 10:24:00,order-service,INFO,[order-service] Request completed successfully in 8142ms,169.8,1.31,50.24,55.96
+2026-01-15 10:24:00,payment-service,INFO,Request completed successfully in 2766ms,122.1,1.0,31.41,50.94
+2026-01-15 10:25:00,api-gateway,INFO,User login successful for user_77827,101.8,0.31,46.15,54.44
+2026-01-15 10:25:00,auth-service,INFO,Configuration reloaded,142.0,1.06,53.89,56.03
+2026-01-15 10:25:00,inventory-db,INFO,Request completed successfully in 2830ms (trace_id=2eca0511),107.6,0.99,46.26,50.9
+2026-01-15 10:25:00,notification-service,INFO,Scheduled cleanup job finished,121.1,0.65,39.27,49.93
+2026-01-15 10:25:00,order-service,INFO,Heartbeat OK,134.4,1.25,51.81,57.33
+2026-01-15 10:25:00,payment-service,WARN,"Retrying request, attempt 1 of 3 (trace_id=c688b7d7)",156.8,0.85,41.71,56.19
+2026-01-15 10:26:00,api-gateway,INFO,Order 74401 created (trace_id=7adc4702),126.0,1.23,46.0,56.78
+2026-01-15 10:26:00,auth-service,INFO,Cache hit for key product_34016,128.5,0.75,39.53,59.41
+2026-01-15 10:26:00,inventory-db,INFO,Scheduled cleanup job finished,100.2,0.49,47.74,53.0
+2026-01-15 10:26:00,notification-service,INFO,Scheduled cleanup job finished,158.8,0.96,33.48,56.06
+2026-01-15 10:26:00,order-service,INFO,Cache hit for key product_80899,146.8,0.7,44.85,53.83
+2026-01-15 10:26:00,payment-service,INFO,Scheduled cleanup job finished,156.1,1.59,42.22,53.52
+2026-01-15 10:27:00,api-gateway,INFO,Order 78393 created,116.3,0.54,49.31,55.53
+2026-01-15 10:27:00,auth-service,INFO,Heartbeat OK,116.5,0.06,37.47,52.83
+2026-01-15 10:27:00,inventory-db,INFO,Configuration reloaded (trace_id=22522074),108.7,0.89,49.54,51.53
+2026-01-15 10:27:00,notification-service,INFO,Cache hit for key product_26152,162.1,1.23,38.92,57.94
+2026-01-15 10:27:00,order-service,INFO,Metrics exported successfully,195.9,0.39,41.77,55.27
+2026-01-15 10:27:00,payment-service,INFO,Health check passed (trace_id=aeb5f92e),102.6,0.41,70.14,53.4
+2026-01-15 10:28:00,api-gateway,INFO,Health check passed,151.6,1.55,39.94,58.16
+2026-01-15 10:28:00,auth-service,INFO,Heartbeat OK (trace_id=5c7a2c51),126.6,0.12,53.88,55.21
+2026-01-15 10:28:00,inventory-db,INFO,Cache hit for key product_30304 (trace_id=c261baa7),158.8,1.67,37.82,57.93
+2026-01-15 10:28:00,notification-service,INFO,Cache hit for key product_79335,149.6,1.07,53.18,54.05
+2026-01-15 10:28:00,order-service,INFO,Payment 35435 processed (trace_id=a51e359c),151.9,1.88,46.19,65.09
+2026-01-15 10:28:00,payment-service,INFO,Metrics exported successfully,186.2,0.54,46.04,56.39
+2026-01-15 10:29:00,api-gateway,INFO,Heartbeat OK (trace_id=c43122e3),140.2,0.41,43.35,55.19
+2026-01-15 10:29:00,auth-service,INFO,[auth-service] Cache hit for key product_56474 (trace_id=ff02c453),126.3,0.97,37.45,46.43
+2026-01-15 10:29:00,inventory-db,INFO,Metrics exported successfully (trace_id=25c9a6e0),129.3,0.89,38.73,48.62
+2026-01-15 10:29:00,notification-service,INFO,[notification-service] User login successful for user_58326 (trace_id=be1e4384),160.6,1.01,36.63,57.66
+2026-01-15 10:29:00,order-service,INFO,Configuration reloaded,144.5,1.55,44.67,49.12
+2026-01-15 10:29:00,payment-service,INFO,Metrics exported successfully,106.5,0.28,55.99,55.94
+2026-01-15 10:30:00,api-gateway,INFO,Request completed successfully in 3810ms,125.1,0.99,49.88,61.18
+2026-01-15 10:30:00,auth-service,INFO,Metrics exported successfully (trace_id=7ab9fa0e),118.2,1.19,58.05,54.87
+2026-01-15 10:30:00,inventory-db,INFO,Cache hit for key product_78405,146.7,0.32,46.2,54.34
+2026-01-15 10:30:00,notification-service,INFO,Configuration reloaded,119.4,0.85,37.98,51.48
+2026-01-15 10:30:00,order-service,INFO,Payment 52502 processed,155.0,0.91,35.59,55.31
+2026-01-15 10:30:00,payment-service,INFO,Metrics exported successfully,121.2,1.47,52.46,62.15
+2026-01-15 10:31:00,api-gateway,INFO,User login successful for user_5404 (trace_id=b1e5b150),140.2,0.69,57.14,57.12
+2026-01-15 10:31:00,auth-service,WARN,Deprecated API version used by client,110.1,1.2,43.8,60.96
+2026-01-15 10:31:00,inventory-db,INFO,Heartbeat OK,132.0,0.98,40.68,55.24
+2026-01-15 10:31:00,notification-service,INFO,Health check passed,156.5,1.78,51.18,59.77
+2026-01-15 10:31:00,order-service,INFO,Cache hit for key product_47717,140.0,0.7,51.64,52.24
+2026-01-15 10:31:00,payment-service,INFO,Scheduled cleanup job finished,218.4,0.18,40.31,53.86
+2026-01-15 10:32:00,api-gateway,INFO,Metrics exported successfully,117.9,0.42,42.23,56.96
+2026-01-15 10:32:00,auth-service,WARN,"Retrying request, attempt 1 of 3",173.0,0.16,37.16,65.49
+2026-01-15 10:32:00,inventory-db,INFO,Order 37124 created,128.0,0.91,43.24,57.56
+2026-01-15 10:32:00,notification-service,INFO,Cache hit for key product_55806,191.4,0.77,41.59,51.95
+2026-01-15 10:32:00,order-service,INFO,Order 7899 created,135.1,0.99,45.58,60.25
+2026-01-15 10:32:00,payment-service,INFO,Payment 81285 processed,128.3,1.17,46.59,49.84
+2026-01-15 10:33:00,api-gateway,INFO,Heartbeat OK,148.3,1.09,42.91,57.05
+2026-01-15 10:33:00,auth-service,INFO,[auth-service] Metrics exported successfully,130.2,1.32,50.14,60.98
+2026-01-15 10:33:00,inventory-db,INFO,Heartbeat OK,130.2,1.36,50.16,44.43
+2026-01-15 10:33:00,notification-service,INFO,Request completed successfully in 1222ms,130.2,0.62,41.86,50.94
+2026-01-15 10:33:00,order-service,INFO,Order 84290 created,157.0,0.89,49.45,64.66
+2026-01-15 10:33:00,payment-service,INFO,Scheduled cleanup job finished (trace_id=fb19ecca),97.5,1.5,54.74,54.77
+2026-01-15 10:34:00,api-gateway,WARN,"Retrying request, attempt 1 of 3",124.9,0.72,44.54,47.72
+2026-01-15 10:34:00,auth-service,INFO,Order 35153 created (trace_id=5f1bb489),111.7,0.53,55.0,58.43
+2026-01-15 10:34:00,inventory-db,INFO,Health check passed,115.8,0.12,46.27,46.09
+2026-01-15 10:34:00,notification-service,INFO,Request completed successfully in 4917ms (trace_id=556d77f6),131.1,1.11,45.81,53.88
+2026-01-15 10:34:00,order-service,INFO,Order 22982 created,110.7,1.44,34.18,53.68
+2026-01-15 10:34:00,payment-service,INFO,Health check passed,126.1,0.72,44.27,62.04
+2026-01-15 10:35:00,api-gateway,INFO,Health check passed (trace_id=58af2c64),137.7,1.1,52.45,54.18
+2026-01-15 10:35:00,auth-service,INFO,Request completed successfully in 8158ms,96.2,0.99,33.0,55.26
+2026-01-15 10:35:00,inventory-db,INFO,Cache hit for key product_41469,152.3,0.34,56.16,50.61
+2026-01-15 10:35:00,notification-service,INFO,Scheduled cleanup job finished,193.8,1.63,43.65,54.2
+2026-01-15 10:35:00,order-service,INFO,Order 52037 created,138.8,0.36,49.86,40.98
+2026-01-15 10:35:00,payment-service,INFO,Configuration reloaded,149.9,1.14,44.41,52.1
+2026-01-15 10:36:00,api-gateway,INFO,User login successful for user_11492 (trace_id=f010c8bd),96.3,0.78,42.73,53.7
+2026-01-15 10:36:00,auth-service,INFO,Metrics exported successfully,108.7,1.01,53.85,52.0
+2026-01-15 10:36:00,inventory-db,INFO,Configuration reloaded,128.6,0.76,45.36,53.87
+2026-01-15 10:36:00,notification-service,INFO,Metrics exported successfully,111.3,1.52,40.82,50.27
+2026-01-15 10:36:00,order-service,INFO,Cache hit for key product_63542,148.0,0.85,58.43,58.47
+2026-01-15 10:36:00,payment-service,INFO,Health check passed,130.6,0.27,46.34,55.07
+2026-01-15 10:37:00,api-gateway,INFO,Cache hit for key product_11482 (trace_id=40e8b8ac),132.2,0.26,53.12,56.04
+2026-01-15 10:37:00,auth-service,INFO,Health check passed,140.4,0.4,40.86,54.2
+2026-01-15 10:37:00,inventory-db,INFO,Scheduled cleanup job finished,129.6,0.02,55.16,55.67
+2026-01-15 10:37:00,notification-service,INFO,Configuration reloaded,121.1,0.83,44.6,58.45
+2026-01-15 10:37:00,order-service,INFO,Cache hit for key product_63480,107.7,0.45,47.81,58.47
+2026-01-15 10:37:00,payment-service,INFO,Metrics exported successfully (trace_id=ef74a74c),119.9,0.59,32.32,53.07
+2026-01-15 10:38:00,api-gateway,WARN,[api-gateway] Deprecated API version used by client,87.2,0.75,35.96,48.21
+2026-01-15 10:38:00,auth-service,INFO,Order 40896 created,141.0,0.5,53.13,58.06
+2026-01-15 10:38:00,inventory-db,INFO,Metrics exported successfully,93.2,1.37,50.56,55.93
+2026-01-15 10:38:00,notification-service,INFO,Request completed successfully in 1610ms,132.4,1.23,37.72,53.85
+2026-01-15 10:38:00,order-service,INFO,[order-service] Scheduled cleanup job finished,99.6,1.5,33.13,46.59
+2026-01-15 10:38:00,payment-service,INFO,Cache hit for key product_54395,159.6,0.03,37.01,56.83
+2026-01-15 10:39:00,api-gateway,INFO,Payment 85225 processed,79.4,0.83,41.31,63.17
+2026-01-15 10:39:00,auth-service,INFO,[auth-service] Scheduled cleanup job finished,119.4,0.24,39.95,51.07
+2026-01-15 10:39:00,inventory-db,INFO,Payment 15433 processed,131.1,0.21,60.8,65.0
+2026-01-15 10:39:00,notification-service,INFO,Configuration reloaded (trace_id=ac85a915),121.4,1.06,42.31,57.49
+2026-01-15 10:39:00,order-service,WARN,Deprecated API version used by client (trace_id=c22f7637),133.6,1.75,43.5,54.04
+2026-01-15 10:39:00,payment-service,INFO,Configuration reloaded,105.7,0.87,44.86,56.1
+2026-01-15 10:40:00,api-gateway,INFO,Scheduled cleanup job finished,117.3,1.28,41.11,55.52
+2026-01-15 10:40:00,auth-service,INFO,Heartbeat OK,125.1,0.34,31.46,59.67
+2026-01-15 10:40:00,inventory-db,WARN,Deprecated API version used by client (trace_id=8cd7a259),108.8,0.39,43.05,58.22
+2026-01-15 10:40:00,notification-service,INFO,Metrics exported successfully,105.3,0.85,47.09,47.0
+2026-01-15 10:40:00,order-service,ERROR,JSON decode error in response handled by search,257.6,8.72,41.86,56.25
+2026-01-15 10:40:00,payment-service,INFO,Order 11814 created,146.5,0.79,46.2,50.84
+2026-01-15 10:41:00,api-gateway,INFO,Scheduled cleanup job finished,104.0,0.35,47.89,48.94
+2026-01-15 10:41:00,auth-service,INFO,Configuration reloaded,117.1,0.1,45.9,50.08
+2026-01-15 10:41:00,inventory-db,INFO,Metrics exported successfully,112.5,0.06,42.23,57.88
+2026-01-15 10:41:00,notification-service,INFO,Order 53697 created,98.4,1.14,34.96,47.89
+2026-01-15 10:41:00,order-service,ERROR,Request validation failed unexpectedly for endpoint /orders,284.8,10.17,42.88,49.15
+2026-01-15 10:41:00,payment-service,INFO,Request completed successfully in 2500ms (trace_id=ce13de2c),118.4,0.41,35.93,53.71
+2026-01-15 10:42:00,api-gateway,INFO,Order 48370 created,127.2,0.78,49.59,46.46
+2026-01-15 10:42:00,auth-service,INFO,Order 5244 created,99.3,1.02,48.76,46.1
+2026-01-15 10:42:00,inventory-db,INFO,Metrics exported successfully,146.9,0.47,51.83,52.53
+2026-01-15 10:42:00,notification-service,INFO,Request completed successfully in 7275ms,123.9,1.12,40.78,53.14
+2026-01-15 10:42:00,order-service,ERROR,KeyError: 'address' while parsing request payload,311.5,12.03,40.72,58.89
+2026-01-15 10:42:00,payment-service,INFO,Configuration reloaded,129.6,1.25,39.94,59.47
+2026-01-15 10:43:00,api-gateway,INFO,Configuration reloaded,172.8,0.06,31.59,53.59
+2026-01-15 10:43:00,auth-service,INFO,Configuration reloaded,152.1,0.83,56.82,49.94
+2026-01-15 10:43:00,inventory-db,INFO,Order 51942 created,98.9,1.21,39.03,58.85
+2026-01-15 10:43:00,notification-service,INFO,Heartbeat OK,97.5,0.88,34.15,49.5
+2026-01-15 10:43:00,order-service,ERROR,"Unhandled TypeError in billing module, stack trace follows",264.2,9.81,43.99,58.1
+2026-01-15 10:43:00,payment-service,WARN,Deprecated API version used by client,125.3,0.96,41.22,60.22
+2026-01-15 10:44:00,api-gateway,INFO,Health check passed,105.0,1.13,35.63,54.55
+2026-01-15 10:44:00,auth-service,INFO,Configuration reloaded (trace_id=474a0813),131.5,1.26,54.1,46.67
+2026-01-15 10:44:00,inventory-db,INFO,Payment 50766 processed,118.8,1.11,39.28,58.39
+2026-01-15 10:44:00,notification-service,INFO,Cache hit for key product_61681,97.4,1.68,47.25,53.8
+2026-01-15 10:44:00,order-service,ERROR,[order-service] Request validation failed unexpectedly for endpoint /orders,351.2,8.26,39.59,57.3
+2026-01-15 10:44:00,payment-service,INFO,Payment 61978 processed,127.2,0.53,40.9,59.37
+2026-01-15 10:45:00,api-gateway,INFO,Cache hit for key product_91963,109.3,0.26,44.27,51.41
+2026-01-15 10:45:00,auth-service,INFO,Configuration reloaded,177.5,0.98,46.78,48.14
+2026-01-15 10:45:00,inventory-db,INFO,Payment 20561 processed,137.2,1.27,44.12,58.29
+2026-01-15 10:45:00,notification-service,INFO,Heartbeat OK,120.8,0.62,46.22,57.27
+2026-01-15 10:45:00,order-service,INFO,Order 2275 created,147.4,1.36,44.16,49.79
+2026-01-15 10:45:00,payment-service,INFO,[payment-service] Request completed successfully in 2175ms,123.0,0.53,46.64,59.08
+2026-01-15 10:46:00,api-gateway,INFO,[api-gateway] Cache hit for key product_77443,127.4,0.1,37.18,55.46
+2026-01-15 10:46:00,auth-service,INFO,Order 42178 created,106.2,0.48,40.13,60.66
+2026-01-15 10:46:00,inventory-db,INFO,Cache hit for key product_35108,148.8,1.11,44.92,54.39
+2026-01-15 10:46:00,notification-service,INFO,Scheduled cleanup job finished (trace_id=4fb702dc),126.8,1.51,48.39,60.04
+2026-01-15 10:46:00,order-service,INFO,User login successful for user_37249,115.4,1.1,37.56,51.6
+2026-01-15 10:46:00,payment-service,INFO,Metrics exported successfully,106.8,0.06,42.44,53.19
+2026-01-15 10:47:00,api-gateway,INFO,Cache hit for key product_60677 (trace_id=7c3530aa),133.5,0.77,31.01,51.79
+2026-01-15 10:47:00,auth-service,INFO,Cache hit for key product_19566,119.6,0.97,38.02,54.0
+2026-01-15 10:47:00,inventory-db,INFO,Heartbeat OK,111.0,0.22,32.4,58.05
+2026-01-15 10:47:00,notification-service,INFO,Request completed successfully in 8189ms,104.5,1.87,48.9,61.81
+2026-01-15 10:47:00,order-service,INFO,Cache hit for key product_12191,116.7,0.74,42.99,52.0
+2026-01-15 10:47:00,payment-service,INFO,Payment 37327 processed,111.3,0.7,42.73,53.04
+2026-01-15 10:48:00,api-gateway,INFO,Health check passed,118.6,1.35,48.81,57.76
+2026-01-15 10:48:00,auth-service,INFO,Heartbeat OK,141.9,0.6,39.48,56.09
+2026-01-15 10:48:00,inventory-db,INFO,Payment 7383 processed,129.7,0.95,43.84,62.53
+2026-01-15 10:48:00,notification-service,INFO,Heartbeat OK,83.4,1.87,48.71,58.4
+2026-01-15 10:48:00,order-service,INFO,User login successful for user_60136,98.5,1.58,49.19,57.75
+2026-01-15 10:48:00,payment-service,INFO,Configuration reloaded,133.3,1.83,31.64,59.4
+2026-01-15 10:49:00,api-gateway,INFO,Scheduled cleanup job finished,117.7,0.04,44.88,51.38
+2026-01-15 10:49:00,auth-service,INFO,Configuration reloaded,116.9,1.1,35.6,60.79
+2026-01-15 10:49:00,inventory-db,INFO,Health check passed (trace_id=371d6cc7),128.7,0.12,39.79,50.99
+2026-01-15 10:49:00,notification-service,INFO,Health check passed,128.6,0.95,46.44,50.93
+2026-01-15 10:49:00,order-service,INFO,Heartbeat OK,140.0,0.96,38.58,50.18
+2026-01-15 10:49:00,payment-service,INFO,Cache hit for key product_5848,121.0,0.44,34.02,49.07
+2026-01-15 10:50:00,api-gateway,INFO,Health check passed,137.5,0.26,44.75,54.81
+2026-01-15 10:50:00,auth-service,INFO,Request completed successfully in 160ms,91.5,0.96,39.37,61.3
+2026-01-15 10:50:00,inventory-db,INFO,Cache hit for key product_63969,96.7,0.55,41.64,44.21
+2026-01-15 10:50:00,notification-service,INFO,Order 50745 created,140.1,0.72,35.85,57.22
+2026-01-15 10:50:00,order-service,INFO,Scheduled cleanup job finished,164.2,0.04,46.62,62.85
+2026-01-15 10:50:00,payment-service,INFO,Heartbeat OK,97.6,0.99,43.43,54.55
+2026-01-15 10:51:00,api-gateway,INFO,Scheduled cleanup job finished (trace_id=834b10fe),133.3,0.43,37.84,59.89
+2026-01-15 10:51:00,auth-service,INFO,Heartbeat OK,101.0,0.31,23.36,52.48
+2026-01-15 10:51:00,inventory-db,INFO,Request completed successfully in 5855ms,73.7,0.61,42.94,59.02
+2026-01-15 10:51:00,notification-service,INFO,Payment 76474 processed,112.9,0.01,47.72,51.85
+2026-01-15 10:51:00,order-service,INFO,Payment 74308 processed,92.7,1.02,35.52,57.23
+2026-01-15 10:51:00,payment-service,INFO,Scheduled cleanup job finished,107.4,0.52,30.01,45.7
+2026-01-15 10:52:00,api-gateway,INFO,Cache hit for key product_70628,98.9,0.24,48.24,67.86
+2026-01-15 10:52:00,auth-service,INFO,[auth-service] Scheduled cleanup job finished,123.9,0.8,42.29,61.64
+2026-01-15 10:52:00,inventory-db,INFO,Scheduled cleanup job finished,78.3,0.53,40.26,58.59
+2026-01-15 10:52:00,notification-service,INFO,Cache hit for key product_34696,113.4,0.78,34.65,57.18
+2026-01-15 10:52:00,order-service,INFO,Payment 56927 processed,138.2,0.82,39.03,43.99
+2026-01-15 10:52:00,payment-service,INFO,Request completed successfully in 8596ms (trace_id=44a3307a),107.5,1.18,42.81,52.97
+2026-01-15 10:53:00,api-gateway,INFO,Request completed successfully in 2292ms,119.7,0.99,39.23,49.96
+2026-01-15 10:53:00,auth-service,INFO,Scheduled cleanup job finished,129.0,0.83,40.71,56.92
+2026-01-15 10:53:00,inventory-db,INFO,User login successful for user_75367,134.9,1.05,48.95,53.79
+2026-01-15 10:53:00,notification-service,INFO,[notification-service] Heartbeat OK (trace_id=d0005ec3),70.4,2.04,57.24,49.2
+2026-01-15 10:53:00,order-service,INFO,Health check passed (trace_id=171e3991),141.1,1.79,39.86,63.99
+2026-01-15 10:53:00,payment-service,INFO,Order 55664 created (trace_id=18667599),121.3,1.0,36.23,51.36
+2026-01-15 10:54:00,api-gateway,INFO,Request completed successfully in 5953ms,122.0,0.4,48.46,52.68
+2026-01-15 10:54:00,auth-service,INFO,Heartbeat OK,119.2,0.65,58.74,55.02
+2026-01-15 10:54:00,inventory-db,INFO,Metrics exported successfully,123.5,0.4,44.75,52.73
+2026-01-15 10:54:00,notification-service,INFO,Cache hit for key product_87488,141.1,0.03,42.8,61.2
+2026-01-15 10:54:00,order-service,INFO,Configuration reloaded,109.5,0.84,50.2,56.09
+2026-01-15 10:54:00,payment-service,INFO,Payment 57160 processed,126.2,0.67,35.05,48.91
+2026-01-15 10:55:00,api-gateway,INFO,Request completed successfully in 5039ms,97.8,0.44,34.27,50.8
+2026-01-15 10:55:00,auth-service,INFO,Configuration reloaded,143.1,1.25,45.96,57.21
+2026-01-15 10:55:00,inventory-db,INFO,[inventory-db] Request completed successfully in 5872ms,90.9,1.67,39.93,68.63
+2026-01-15 10:55:00,notification-service,INFO,User login successful for user_40684,97.0,0.04,44.8,56.54
+2026-01-15 10:55:00,order-service,INFO,Scheduled cleanup job finished,113.3,0.74,35.86,52.41
+2026-01-15 10:55:00,payment-service,INFO,Scheduled cleanup job finished,124.0,0.09,45.05,57.68
+2026-01-15 10:56:00,api-gateway,INFO,User login successful for user_70733,126.6,1.09,34.54,58.92
+2026-01-15 10:56:00,auth-service,INFO,User login successful for user_70533,142.7,1.66,37.16,47.87
+2026-01-15 10:56:00,inventory-db,INFO,Request completed successfully in 3213ms,106.4,1.1,41.64,52.63
+2026-01-15 10:56:00,notification-service,INFO,Metrics exported successfully,136.7,1.23,31.89,53.04
+2026-01-15 10:56:00,order-service,INFO,Order 40994 created (trace_id=7c84785f),98.7,1.06,49.74,55.79
+2026-01-15 10:56:00,payment-service,INFO,Cache hit for key product_75815 (trace_id=cdcf2f11),107.4,0.53,35.72,51.22
+2026-01-15 10:57:00,api-gateway,INFO,Payment 53766 processed (trace_id=ac68f4eb),101.8,0.42,41.82,49.26
+2026-01-15 10:57:00,auth-service,INFO,Order 94789 created,127.7,0.62,44.35,51.07
+2026-01-15 10:57:00,inventory-db,INFO,Order 88555 created,111.6,1.4,48.23,48.88
+2026-01-15 10:57:00,notification-service,INFO,Heartbeat OK,107.7,1.12,47.9,47.67
+2026-01-15 10:57:00,order-service,INFO,[order-service] Metrics exported successfully,104.1,0.97,30.66,45.8
+2026-01-15 10:57:00,payment-service,INFO,[payment-service] Heartbeat OK,122.0,1.38,34.33,53.03
+2026-01-15 10:58:00,api-gateway,INFO,Metrics exported successfully,141.8,1.02,35.35,52.58
+2026-01-15 10:58:00,auth-service,INFO,Health check passed,121.0,0.62,31.68,54.46
+2026-01-15 10:58:00,inventory-db,INFO,[inventory-db] Metrics exported successfully (trace_id=47b0c419),112.4,1.18,46.34,52.56
+2026-01-15 10:58:00,notification-service,INFO,Heartbeat OK (trace_id=9f9bfc47),117.3,0.1,48.48,55.88
+2026-01-15 10:58:00,order-service,INFO,Cache hit for key product_17210,124.3,0.14,39.76,56.25
+2026-01-15 10:58:00,payment-service,INFO,Payment 85892 processed,91.3,0.67,35.47,53.57
+2026-01-15 10:59:00,api-gateway,WARN,"Slow response from cache, 2518ms",124.4,0.31,44.86,54.85
+2026-01-15 10:59:00,auth-service,INFO,[auth-service] Metrics exported successfully (trace_id=af71c124),114.6,0.32,35.91,58.05
+2026-01-15 10:59:00,inventory-db,INFO,User login successful for user_21338,119.5,1.25,49.57,57.42
+2026-01-15 10:59:00,notification-service,INFO,Heartbeat OK,116.1,0.78,29.14,51.85
+2026-01-15 10:59:00,order-service,INFO,Configuration reloaded,134.5,0.91,47.19,42.51
+2026-01-15 10:59:00,payment-service,INFO,Health check passed,57.7,1.1,40.42,51.22
+2026-01-15 11:00:00,api-gateway,INFO,Health check passed,122.0,0.19,41.82,50.11
+2026-01-15 11:00:00,auth-service,INFO,Scheduled cleanup job finished,132.1,0.74,26.93,53.14
+2026-01-15 11:00:00,inventory-db,INFO,Scheduled cleanup job finished,169.6,0.78,39.67,51.89
+2026-01-15 11:00:00,notification-service,INFO,Heartbeat OK,80.5,0.98,36.1,55.73
+2026-01-15 11:00:00,order-service,INFO,Payment 24089 processed (trace_id=db7717b1),122.8,0.68,45.52,49.95
+2026-01-15 11:00:00,payment-service,INFO,Order 92791 created,119.7,0.55,58.97,61.82
+2026-01-15 11:01:00,api-gateway,WARN,"Retrying request, attempt 1 of 3",106.8,0.12,33.41,50.21
+2026-01-15 11:01:00,auth-service,INFO,Cache hit for key product_31461 (trace_id=edf65495),140.0,0.58,49.92,54.36
+2026-01-15 11:01:00,inventory-db,INFO,Heartbeat OK,102.2,1.79,41.46,53.0
+2026-01-15 11:01:00,notification-service,INFO,Heartbeat OK,180.3,0.05,36.59,50.92
+2026-01-15 11:01:00,order-service,INFO,Heartbeat OK,138.4,1.55,33.34,62.28
+2026-01-15 11:01:00,payment-service,INFO,[payment-service] Request completed successfully in 8471ms,84.3,0.13,25.04,52.41
+2026-01-15 11:02:00,api-gateway,INFO,Health check passed,117.0,1.73,40.25,52.62
+2026-01-15 11:02:00,auth-service,INFO,Order 58476 created,193.0,0.28,43.89,59.85
+2026-01-15 11:02:00,inventory-db,INFO,Configuration reloaded,122.8,0.28,54.39,56.44
+2026-01-15 11:02:00,notification-service,INFO,Cache hit for key product_56939,173.3,1.29,35.2,51.76
+2026-01-15 11:02:00,order-service,INFO,Scheduled cleanup job finished,124.3,2.05,31.7,61.8
+2026-01-15 11:02:00,payment-service,INFO,Configuration reloaded (trace_id=4d4674a0),99.6,1.0,39.49,55.8
+2026-01-15 11:03:00,api-gateway,INFO,Payment 74947 processed,75.4,0.64,37.15,44.5
+2026-01-15 11:03:00,auth-service,INFO,Metrics exported successfully,129.3,0.94,31.38,62.06
+2026-01-15 11:03:00,inventory-db,INFO,User login successful for user_41062,102.0,1.04,40.0,52.79
+2026-01-15 11:03:00,notification-service,INFO,[notification-service] Payment 8003 processed,121.8,0.15,49.28,57.59
+2026-01-15 11:03:00,order-service,INFO,Request completed successfully in 7993ms,94.6,0.29,46.41,53.48
+2026-01-15 11:03:00,payment-service,INFO,Configuration reloaded (trace_id=3633f059),93.7,0.95,37.81,48.42
+2026-01-15 11:04:00,api-gateway,INFO,Configuration reloaded,94.3,0.92,45.89,47.77
+2026-01-15 11:04:00,auth-service,WARN,"Retrying request, attempt 1 of 3",112.0,1.1,39.05,58.84
+2026-01-15 11:04:00,inventory-db,INFO,Cache hit for key product_41097,105.0,0.81,51.83,55.56
+2026-01-15 11:04:00,notification-service,INFO,Order 28089 created,101.3,1.38,54.63,61.87
+2026-01-15 11:04:00,order-service,INFO,User login successful for user_67017,150.6,0.36,31.17,50.23
+2026-01-15 11:04:00,payment-service,INFO,Scheduled cleanup job finished,133.8,0.5,45.97,52.51
+2026-01-15 11:05:00,api-gateway,INFO,Payment 34524 processed,126.9,0.78,34.92,52.93
+2026-01-15 11:05:00,auth-service,WARN,"Slow response from cache, 2576ms",87.9,0.43,46.0,61.34
+2026-01-15 11:05:00,inventory-db,INFO,[inventory-db] Payment 49927 processed,99.1,0.69,45.89,54.71
+2026-01-15 11:05:00,notification-service,INFO,Cache hit for key product_22987 (trace_id=b10f6bc8),113.8,0.91,31.89,48.16
+2026-01-15 11:05:00,order-service,INFO,Order 44962 created,144.7,0.42,44.05,60.09
+2026-01-15 11:05:00,payment-service,INFO,[payment-service] Heartbeat OK (trace_id=2ea927ee),93.1,0.6,36.65,53.25
+2026-01-15 11:06:00,api-gateway,INFO,Configuration reloaded,71.9,0.88,36.14,55.74
+2026-01-15 11:06:00,auth-service,INFO,Configuration reloaded,96.7,0.61,42.68,52.98
+2026-01-15 11:06:00,inventory-db,INFO,User login successful for user_4451,113.5,0.96,36.91,49.64
+2026-01-15 11:06:00,notification-service,WARN,Deprecated API version used by client,149.0,0.46,46.56,53.51
+2026-01-15 11:06:00,order-service,INFO,[order-service] Request completed successfully in 5752ms,103.9,0.52,36.14,54.99
+2026-01-15 11:06:00,payment-service,INFO,[payment-service] Health check passed,125.6,0.93,21.93,53.33
+2026-01-15 11:07:00,api-gateway,INFO,User login successful for user_23099,137.2,0.82,47.57,54.07
+2026-01-15 11:07:00,auth-service,INFO,Health check passed,135.4,0.32,41.76,53.47
+2026-01-15 11:07:00,inventory-db,INFO,Cache hit for key product_61618 (trace_id=88167d29),106.1,0.43,30.04,55.28
+2026-01-15 11:07:00,notification-service,INFO,[notification-service] Payment 79269 processed (trace_id=8bb4edef),77.6,0.01,37.25,56.43
+2026-01-15 11:07:00,order-service,INFO,Scheduled cleanup job finished,156.9,0.5,39.61,56.35
+2026-01-15 11:07:00,payment-service,INFO,Cache hit for key product_44900,108.5,0.49,48.17,51.97
+2026-01-15 11:08:00,api-gateway,INFO,[api-gateway] Configuration reloaded,79.9,1.75,54.63,46.13
+2026-01-15 11:08:00,auth-service,INFO,Scheduled cleanup job finished,128.2,1.18,32.96,56.59
+2026-01-15 11:08:00,inventory-db,INFO,Metrics exported successfully,126.2,1.24,44.06,49.15
+2026-01-15 11:08:00,notification-service,INFO,Request completed successfully in 857ms,115.2,0.64,48.55,53.71
+2026-01-15 11:08:00,order-service,INFO,Scheduled cleanup job finished,128.8,0.87,55.93,58.5
+2026-01-15 11:08:00,payment-service,WARN,"Deployment v1.7.7 failed health check, rolling back",582.0,8.55,40.46,57.71
+2026-01-15 11:09:00,api-gateway,INFO,Cache hit for key product_70137 (trace_id=591da94a),134.8,0.28,52.83,52.68
+2026-01-15 11:09:00,auth-service,INFO,Order 27257 created,153.1,0.04,34.37,53.49
+2026-01-15 11:09:00,inventory-db,INFO,[inventory-db] Payment 78673 processed (trace_id=aab33e3d),122.9,1.2,34.62,59.55
+2026-01-15 11:09:00,notification-service,INFO,Request completed successfully in 5527ms,129.0,0.77,21.68,52.29
+2026-01-15 11:09:00,order-service,INFO,Configuration reloaded,121.4,1.39,50.39,49.65
+2026-01-15 11:09:00,payment-service,ERROR,Database migration v1.3.3 failed during deployment,687.2,10.13,44.46,60.16
+2026-01-15 11:10:00,api-gateway,INFO,Configuration reloaded (trace_id=89d57ebc),99.3,0.02,39.15,58.99
+2026-01-15 11:10:00,auth-service,INFO,User login successful for user_85552 (trace_id=3529eb28),119.2,0.64,39.37,52.46
+2026-01-15 11:10:00,inventory-db,INFO,Payment 88677 processed,97.8,0.85,34.47,50.29
+2026-01-15 11:10:00,notification-service,INFO,User login successful for user_44286,120.6,0.75,35.66,65.31
+2026-01-15 11:10:00,order-service,INFO,Configuration reloaded (trace_id=80bfb80b),159.5,0.2,45.24,59.36
+2026-01-15 11:10:00,payment-service,ERROR,Canary release v1.4.8 error rate above threshold,734.8,10.64,42.64,58.03
+2026-01-15 11:11:00,api-gateway,INFO,Cache hit for key product_21610 (trace_id=542be4a0),134.9,0.29,40.11,57.78
+2026-01-15 11:11:00,auth-service,INFO,Metrics exported successfully,136.8,1.78,45.02,63.26
+2026-01-15 11:11:00,inventory-db,INFO,Order 49195 created,160.8,1.17,27.24,53.73
+2026-01-15 11:11:00,notification-service,INFO,User login successful for user_88769,126.5,0.51,47.09,50.29
+2026-01-15 11:11:00,order-service,INFO,User login successful for user_54911,106.7,0.08,29.44,44.25
+2026-01-15 11:11:00,payment-service,ERROR,Config file not found after release v1.1.5,800.8,11.81,44.4,58.44
+2026-01-15 11:12:00,api-gateway,INFO,Request completed successfully in 5983ms,120.4,0.13,49.19,54.61
+2026-01-15 11:12:00,auth-service,INFO,Heartbeat OK,146.6,0.83,32.65,53.99
+2026-01-15 11:12:00,inventory-db,INFO,Request completed successfully in 2959ms,91.2,0.28,47.41,45.89
+2026-01-15 11:12:00,notification-service,INFO,Heartbeat OK,101.0,0.71,33.12,56.29
+2026-01-15 11:12:00,order-service,INFO,Payment 89583 processed,83.5,0.07,41.31,62.84
+2026-01-15 11:12:00,payment-service,ERROR,Config file not found after release v1.4.7,765.0,11.15,44.46,57.96
+2026-01-15 11:13:00,api-gateway,INFO,[api-gateway] Metrics exported successfully,83.5,1.17,37.46,50.56
+2026-01-15 11:13:00,auth-service,WARN,"Retrying request, attempt 1 of 3",139.2,1.03,30.48,50.17
+2026-01-15 11:13:00,inventory-db,INFO,Health check passed,125.3,0.1,39.75,52.7
+2026-01-15 11:13:00,notification-service,INFO,Metrics exported successfully,81.3,1.25,46.66,52.05
+2026-01-15 11:13:00,order-service,INFO,Heartbeat OK (trace_id=752df8b6),133.0,1.4,39.3,47.07
+2026-01-15 11:13:00,payment-service,ERROR,Container failed to start: ImagePullBackOff for image api-gateway:v1.0.5,730.4,10.43,46.21,61.29
+2026-01-15 11:14:00,api-gateway,INFO,Payment 87853 processed (trace_id=4e6aff09),144.6,1.21,31.37,58.16
+2026-01-15 11:14:00,auth-service,INFO,User login successful for user_59446,103.7,0.73,46.22,57.44
+2026-01-15 11:14:00,inventory-db,INFO,User login successful for user_16189,165.9,0.51,39.09,48.71
+2026-01-15 11:14:00,notification-service,INFO,Health check passed,88.3,0.36,34.62,54.0
+2026-01-15 11:14:00,order-service,WARN,"Retrying request, attempt 1 of 3",112.3,1.51,38.09,51.97
+2026-01-15 11:14:00,payment-service,ERROR,Missing environment variable API_KEY_PATH after deploy (trace_id=8cb59e7c),721.5,10.59,46.15,60.14
+2026-01-15 11:15:00,api-gateway,INFO,Health check passed,148.7,0.32,38.9,52.11
+2026-01-15 11:15:00,auth-service,INFO,Heartbeat OK,223.7,0.21,31.57,64.18
+2026-01-15 11:15:00,inventory-db,INFO,Payment 54960 processed,100.9,0.69,41.54,62.32
+2026-01-15 11:15:00,notification-service,WARN,"Retrying request, attempt 1 of 3 (trace_id=6efcd693)",233.2,0.71,46.05,43.06
+2026-01-15 11:15:00,order-service,INFO,[order-service] Configuration reloaded,97.1,0.08,48.13,51.75
+2026-01-15 11:15:00,payment-service,ERROR,[payment-service] Missing environment variable REDIS_HOST after deploy,535.2,7.38,40.52,58.43
+2026-01-15 11:16:00,api-gateway,INFO,Payment 34276 processed,115.3,0.1,41.13,49.15
+2026-01-15 11:16:00,auth-service,INFO,Scheduled cleanup job finished,119.6,0.78,45.51,55.4
+2026-01-15 11:16:00,inventory-db,INFO,Heartbeat OK,146.5,2.05,40.37,54.31
+2026-01-15 11:16:00,notification-service,INFO,Metrics exported successfully,133.1,1.04,42.05,58.92
+2026-01-15 11:16:00,order-service,INFO,[order-service] Health check passed,149.5,0.03,26.4,59.02
+2026-01-15 11:16:00,payment-service,INFO,Health check passed,114.6,1.05,41.3,58.3
+2026-01-15 11:17:00,api-gateway,INFO,Metrics exported successfully,110.5,0.62,32.04,50.99
+2026-01-15 11:17:00,auth-service,WARN,"Retrying request, attempt 1 of 3",94.9,1.0,39.55,61.16
+2026-01-15 11:17:00,inventory-db,INFO,[inventory-db] Order 21685 created,148.4,0.69,39.22,57.5
+2026-01-15 11:17:00,notification-service,INFO,Configuration reloaded (trace_id=b6c899e4),118.3,0.8,34.89,53.44
+2026-01-15 11:17:00,order-service,INFO,Order 51809 created,127.5,0.91,40.69,59.11
+2026-01-15 11:17:00,payment-service,INFO,[payment-service] Payment 67192 processed,119.4,1.33,35.1,51.35
+2026-01-15 11:18:00,api-gateway,INFO,Order 47103 created,112.9,1.5,26.21,62.24
+2026-01-15 11:18:00,auth-service,INFO,Configuration reloaded,126.8,0.29,43.9,52.81
+2026-01-15 11:18:00,inventory-db,INFO,Health check passed,124.0,1.32,42.04,46.23
+2026-01-15 11:18:00,notification-service,INFO,Heartbeat OK,151.7,1.25,32.37,49.66
+2026-01-15 11:18:00,order-service,INFO,Payment 57181 processed,89.5,1.39,39.21,57.09
+2026-01-15 11:18:00,payment-service,INFO,Metrics exported successfully,109.1,0.86,38.35,54.09
+2026-01-15 11:19:00,api-gateway,INFO,Request completed successfully in 3891ms,94.7,0.61,27.56,56.1
+2026-01-15 11:19:00,auth-service,INFO,User login successful for user_65547 (trace_id=3efcab43),138.7,0.97,49.82,52.54
+2026-01-15 11:19:00,inventory-db,INFO,Request completed successfully in 7539ms,74.6,1.23,36.42,48.75
+2026-01-15 11:19:00,notification-service,INFO,Order 49343 created,118.4,1.59,36.41,62.8
+2026-01-15 11:19:00,order-service,INFO,User login successful for user_5323,102.5,1.35,32.89,58.05
+2026-01-15 11:19:00,payment-service,INFO,Scheduled cleanup job finished,97.0,0.02,38.52,55.87
+2026-01-15 11:20:00,api-gateway,INFO,Metrics exported successfully,140.2,1.06,42.16,60.8
+2026-01-15 11:20:00,auth-service,INFO,Health check passed (trace_id=dfc9a98c),105.4,1.42,42.32,51.55
+2026-01-15 11:20:00,inventory-db,INFO,[inventory-db] Payment 38100 processed,147.9,1.86,20.27,54.06
+2026-01-15 11:20:00,notification-service,INFO,Configuration reloaded,120.3,0.63,45.6,53.11
+2026-01-15 11:20:00,order-service,INFO,User login successful for user_45320,257.1,0.94,50.3,57.66
+2026-01-15 11:20:00,payment-service,INFO,Heartbeat OK,160.3,0.43,41.64,55.43
+2026-01-15 11:21:00,api-gateway,INFO,Metrics exported successfully (trace_id=967c7559),103.9,0.26,32.08,52.6
+2026-01-15 11:21:00,auth-service,INFO,Metrics exported successfully (trace_id=4c334bbb),159.2,1.33,42.82,54.28
+2026-01-15 11:21:00,inventory-db,INFO,Request completed successfully in 3776ms,117.9,0.86,43.24,48.17
+2026-01-15 11:21:00,notification-service,INFO,Cache hit for key product_67481,120.2,0.92,37.32,51.42
+2026-01-15 11:21:00,order-service,INFO,[order-service] Scheduled cleanup job finished,154.6,1.19,29.0,54.84
+2026-01-15 11:21:00,payment-service,INFO,Health check passed,75.3,1.24,32.94,50.64
+2026-01-15 11:22:00,api-gateway,INFO,[api-gateway] Health check passed,114.5,1.32,36.29,59.69
+2026-01-15 11:22:00,auth-service,INFO,Request completed successfully in 5592ms,109.2,0.01,30.85,64.18
+2026-01-15 11:22:00,inventory-db,INFO,Payment 87821 processed,103.3,1.13,40.96,60.57
+2026-01-15 11:22:00,notification-service,WARN,"Slow response from cache, 6220ms",77.6,0.66,32.61,50.26
+2026-01-15 11:22:00,order-service,INFO,Request completed successfully in 5986ms,73.2,1.01,38.06,45.27
+2026-01-15 11:22:00,payment-service,INFO,Order 75490 created,121.6,0.66,36.19,51.01
+2026-01-15 11:23:00,api-gateway,INFO,Scheduled cleanup job finished,98.0,0.26,38.66,51.99
+2026-01-15 11:23:00,auth-service,INFO,Payment 54127 processed (trace_id=562d80d8),111.0,0.31,32.3,49.22
+2026-01-15 11:23:00,inventory-db,INFO,Metrics exported successfully,144.1,0.71,38.06,52.9
+2026-01-15 11:23:00,notification-service,INFO,Payment 70879 processed (trace_id=155484c8),128.1,0.64,60.41,59.83
+2026-01-15 11:23:00,order-service,INFO,Cache hit for key product_3331 (trace_id=b7096caa),121.4,0.57,38.31,43.21
+2026-01-15 11:23:00,payment-service,INFO,[payment-service] Metrics exported successfully,125.6,0.39,38.51,57.37
+2026-01-15 11:24:00,api-gateway,INFO,Request completed successfully in 399ms (trace_id=5b4beba5),101.5,0.66,41.4,54.21
+2026-01-15 11:24:00,auth-service,INFO,Scheduled cleanup job finished (trace_id=aed1c57e),110.1,0.01,41.57,63.19
+2026-01-15 11:24:00,inventory-db,INFO,Order 60331 created,99.0,0.37,48.83,55.64
+2026-01-15 11:24:00,notification-service,INFO,[notification-service] Request completed successfully in 4934ms,90.9,1.15,26.0,54.64
+2026-01-15 11:24:00,order-service,INFO,Order 7727 created,107.7,1.8,22.13,43.23
+2026-01-15 11:24:00,payment-service,INFO,Metrics exported successfully (trace_id=e7ed9ca6),119.0,0.74,37.51,56.38
+2026-01-15 11:25:00,api-gateway,INFO,Scheduled cleanup job finished,87.0,0.05,34.61,67.43
+2026-01-15 11:25:00,auth-service,INFO,User login successful for user_60313,99.5,1.34,47.7,49.96
+2026-01-15 11:25:00,inventory-db,WARN,"Retrying request, attempt 1 of 3",139.0,0.3,27.98,56.4
+2026-01-15 11:25:00,notification-service,INFO,Configuration reloaded,106.8,0.25,35.35,52.95
+2026-01-15 11:25:00,order-service,INFO,Heartbeat OK,78.2,0.85,27.41,54.96
+2026-01-15 11:25:00,payment-service,INFO,[payment-service] Configuration reloaded,94.3,1.04,31.23,44.5
+2026-01-15 11:26:00,api-gateway,INFO,[api-gateway] Metrics exported successfully,142.6,0.31,40.34,58.84
+2026-01-15 11:26:00,auth-service,INFO,[auth-service] User login successful for user_65240,124.2,1.11,46.6,53.83
+2026-01-15 11:26:00,inventory-db,INFO,[inventory-db] Heartbeat OK,102.6,0.41,17.46,54.15
+2026-01-15 11:26:00,notification-service,WARN,Deprecated API version used by client,343.4,1.48,40.63,47.87
+2026-01-15 11:26:00,order-service,INFO,Order 4811 created,112.0,0.29,30.57,54.02
+2026-01-15 11:26:00,payment-service,INFO,Payment 80497 processed,111.1,0.92,48.65,55.3
+2026-01-15 11:27:00,api-gateway,INFO,Metrics exported successfully,111.4,1.49,30.52,52.49
+2026-01-15 11:27:00,auth-service,INFO,Request completed successfully in 7802ms,115.2,1.15,52.97,59.18
+2026-01-15 11:27:00,inventory-db,INFO,Scheduled cleanup job finished,126.8,1.52,47.83,58.73
+2026-01-15 11:27:00,notification-service,INFO,Payment 67112 processed,87.6,0.13,29.41,49.98
+2026-01-15 11:27:00,order-service,WARN,Deprecated API version used by client,81.0,0.61,42.91,54.48
+2026-01-15 11:27:00,payment-service,WARN,Deprecated API version used by client,105.0,1.11,33.36,61.08
+2026-01-15 11:28:00,api-gateway,INFO,Health check passed,135.9,1.21,34.12,54.58
+2026-01-15 11:28:00,auth-service,INFO,User login successful for user_68749,151.2,0.36,38.83,58.15
+2026-01-15 11:28:00,inventory-db,INFO,Order 33204 created (trace_id=92578917),90.4,0.95,40.27,51.55
+2026-01-15 11:28:00,notification-service,INFO,Cache hit for key product_30697,117.3,1.49,36.55,56.22
+2026-01-15 11:28:00,order-service,INFO,Health check passed (trace_id=79927b45),103.7,0.08,43.92,56.37
+2026-01-15 11:28:00,payment-service,INFO,Heartbeat OK (trace_id=e1b1b6ee),91.3,0.38,41.74,51.68
+2026-01-15 11:29:00,api-gateway,INFO,Request completed successfully in 7274ms,114.8,0.6,29.39,56.63
+2026-01-15 11:29:00,auth-service,INFO,User login successful for user_14028,225.4,0.22,37.98,56.41
+2026-01-15 11:29:00,inventory-db,INFO,Heartbeat OK,105.6,0.73,25.87,56.7
+2026-01-15 11:29:00,notification-service,INFO,Payment 16542 processed (trace_id=a26153e2),120.9,0.55,33.59,54.39
+2026-01-15 11:29:00,order-service,INFO,Metrics exported successfully,149.8,0.86,41.34,53.98
+2026-01-15 11:29:00,payment-service,INFO,Payment 42691 processed (trace_id=a52ddf62),113.7,0.65,37.79,56.02
+2026-01-15 11:30:00,api-gateway,INFO,Metrics exported successfully,99.1,0.36,44.39,61.05
+2026-01-15 11:30:00,auth-service,ERROR,Memory usage critical: 96% of limit used (trace_id=df859d30),506.1,2.33,54.61,56.65
+2026-01-15 11:30:00,inventory-db,INFO,Payment 6133 processed,93.7,0.81,34.36,60.82
+2026-01-15 11:30:00,notification-service,INFO,Order 68449 created,117.2,0.3,26.07,44.43
+2026-01-15 11:30:00,order-service,INFO,User login successful for user_95906,126.0,1.4,38.74,49.99
+2026-01-15 11:30:00,payment-service,INFO,Order 12450 created,105.6,0.66,44.77,47.71
+2026-01-15 11:31:00,api-gateway,INFO,[api-gateway] Request completed successfully in 3139ms (trace_id=66dafda7),107.0,0.15,36.18,52.55
+2026-01-15 11:31:00,auth-service,ERROR,Disk usage at 97% on /var/lib/data,627.1,2.85,53.5,67.3
+2026-01-15 11:31:00,inventory-db,INFO,User login successful for user_54703,98.2,0.52,41.41,55.94
+2026-01-15 11:31:00,notification-service,INFO,User login successful for user_41268 (trace_id=2a0fb273),114.3,0.57,39.54,50.12
+2026-01-15 11:31:00,order-service,INFO,Payment 38866 processed,131.6,0.21,21.37,47.37
+2026-01-15 11:31:00,payment-service,INFO,Payment 88241 processed,102.2,0.78,20.99,58.93
+2026-01-15 11:32:00,api-gateway,INFO,Heartbeat OK,101.7,0.6,31.11,46.29
+2026-01-15 11:32:00,auth-service,ERROR,"Container killed: OOMKilled, memory limit reached",699.1,2.88,56.0,64.51
+2026-01-15 11:32:00,inventory-db,INFO,[inventory-db] User login successful for user_56819,118.2,0.79,28.58,55.5
+2026-01-15 11:32:00,notification-service,INFO,Health check passed,101.8,0.68,28.28,55.63
+2026-01-15 11:32:00,order-service,INFO,Heartbeat OK,127.5,1.41,38.38,45.31
+2026-01-15 11:32:00,payment-service,INFO,Payment 61391 processed,129.2,0.25,50.36,49.38
+2026-01-15 11:33:00,api-gateway,INFO,User login successful for user_34067,114.1,0.78,33.73,53.6
+2026-01-15 11:33:00,auth-service,ERROR,"[auth-service] Thread pool saturated, no free worker threads",671.0,3.03,49.61,75.77
+2026-01-15 11:33:00,inventory-db,INFO,Configuration reloaded,110.1,0.78,40.79,53.24
+2026-01-15 11:33:00,notification-service,INFO,Order 56071 created,157.7,0.3,30.89,67.91
+2026-01-15 11:33:00,order-service,INFO,Request completed successfully in 6650ms (trace_id=b9b9f93b),122.2,1.89,33.13,61.53
+2026-01-15 11:33:00,payment-service,INFO,Cache hit for key product_75444,90.8,0.67,34.52,48.71
+2026-01-15 11:34:00,api-gateway,INFO,Payment 32908 processed,105.5,0.76,34.56,55.08
+2026-01-15 11:34:00,auth-service,ERROR,"Container killed: OOMKilled, memory limit reached",618.3,3.05,58.22,65.27
+2026-01-15 11:34:00,inventory-db,INFO,Health check passed (trace_id=380c19b8),118.0,1.13,51.57,55.17
+2026-01-15 11:34:00,notification-service,INFO,User login successful for user_84858,69.6,0.12,44.73,50.73
+2026-01-15 11:34:00,order-service,INFO,Order 30903 created,135.3,1.04,44.98,59.92
+2026-01-15 11:34:00,payment-service,WARN,"Retrying request, attempt 1 of 3",123.6,0.13,27.35,53.29
+2026-01-15 11:35:00,api-gateway,INFO,Payment 6642 processed,107.1,0.75,40.94,55.55
+2026-01-15 11:35:00,auth-service,ERROR,CPU usage above 92% for 5 minutes,573.5,2.62,45.1,65.17
+2026-01-15 11:35:00,inventory-db,INFO,Configuration reloaded,142.5,1.26,46.43,58.22
+2026-01-15 11:35:00,notification-service,INFO,[notification-service] Health check passed,91.1,0.55,28.17,43.38
+2026-01-15 11:35:00,order-service,INFO,Cache hit for key product_29669,89.3,0.27,46.13,48.13
+2026-01-15 11:35:00,payment-service,INFO,Payment 54167 processed,100.3,1.48,36.73,66.47
+2026-01-15 11:36:00,api-gateway,INFO,Scheduled cleanup job finished,83.2,0.24,24.79,61.58
+2026-01-15 11:36:00,auth-service,INFO,Payment 60196 processed (trace_id=17f0ad45),112.9,0.28,39.54,49.27
+2026-01-15 11:36:00,inventory-db,INFO,Payment 87876 processed,110.9,0.01,36.47,53.67
+2026-01-15 11:36:00,notification-service,INFO,Health check passed,146.2,1.29,40.16,58.32
+2026-01-15 11:36:00,order-service,INFO,Order 1908 created (trace_id=26a4e8b6),106.5,0.42,52.37,53.76
+2026-01-15 11:36:00,payment-service,INFO,[payment-service] Configuration reloaded (trace_id=eaa01f90),123.0,1.56,51.46,51.85
+2026-01-15 11:37:00,api-gateway,INFO,Cache hit for key product_24597,95.7,0.77,28.62,56.58
+2026-01-15 11:37:00,auth-service,WARN,"Retrying request, attempt 1 of 3",150.1,0.26,25.95,52.61
+2026-01-15 11:37:00,inventory-db,INFO,Payment 85620 processed,71.6,0.92,38.86,46.56
+2026-01-15 11:37:00,notification-service,INFO,Request completed successfully in 8245ms (trace_id=5ca708a3),125.5,1.01,44.14,52.1
+2026-01-15 11:37:00,order-service,INFO,Configuration reloaded,132.4,0.68,41.47,57.49
+2026-01-15 11:37:00,payment-service,INFO,Payment 46091 processed,115.0,1.62,39.2,48.66
+2026-01-15 11:38:00,api-gateway,INFO,Configuration reloaded,149.7,0.78,33.16,59.06
+2026-01-15 11:38:00,auth-service,INFO,Health check passed,129.5,0.67,43.48,48.54
+2026-01-15 11:38:00,inventory-db,INFO,Cache hit for key product_65021,106.8,1.49,29.95,55.69
+2026-01-15 11:38:00,notification-service,INFO,[notification-service] Payment 12408 processed,96.5,1.48,42.74,47.89
+2026-01-15 11:38:00,order-service,WARN,"Slow response from cache, 7911ms (trace_id=5a78695b)",98.4,0.21,42.15,63.5
+2026-01-15 11:38:00,payment-service,INFO,Metrics exported successfully,118.6,1.19,27.04,57.11
+2026-01-15 11:39:00,api-gateway,INFO,Heartbeat OK,98.4,1.45,53.46,49.49
+2026-01-15 11:39:00,auth-service,INFO,Order 87115 created (trace_id=f918a492),131.6,0.88,28.54,59.91
+2026-01-15 11:39:00,inventory-db,INFO,User login successful for user_3615,115.0,0.29,37.39,54.14
+2026-01-15 11:39:00,notification-service,INFO,[notification-service] Cache hit for key product_3159,93.4,0.5,38.99,57.31
+2026-01-15 11:39:00,order-service,INFO,Payment 68781 processed,104.5,0.22,28.99,52.04
+2026-01-15 11:39:00,payment-service,INFO,User login successful for user_12968 (trace_id=9b7a9d17),91.7,0.55,32.32,55.97
+2026-01-15 11:40:00,api-gateway,INFO,Payment 86111 processed (trace_id=700d8b50),89.9,1.73,42.36,59.34
+2026-01-15 11:40:00,auth-service,INFO,Configuration reloaded,118.1,0.67,41.57,53.69
+2026-01-15 11:40:00,inventory-db,INFO,[inventory-db] Request completed successfully in 1575ms,135.9,0.68,34.09,57.2
+2026-01-15 11:40:00,notification-service,INFO,Scheduled cleanup job finished,107.6,0.63,33.99,53.33
+2026-01-15 11:40:00,order-service,INFO,[order-service] Cache hit for key product_60229,139.7,0.72,36.79,56.09
+2026-01-15 11:40:00,payment-service,INFO,Cache hit for key product_82381,96.0,1.26,44.76,62.98
+2026-01-15 11:41:00,api-gateway,INFO,Configuration reloaded,120.4,0.73,34.83,65.48
+2026-01-15 11:41:00,auth-service,INFO,Health check passed,117.6,0.59,24.48,57.81
+2026-01-15 11:41:00,inventory-db,INFO,Metrics exported successfully,136.2,0.89,29.43,55.07
+2026-01-15 11:41:00,notification-service,INFO,Order 87008 created,171.0,0.64,25.74,49.68
+2026-01-15 11:41:00,order-service,INFO,Metrics exported successfully (trace_id=ea76b8bf),146.6,0.76,27.41,61.22
+2026-01-15 11:41:00,payment-service,INFO,Order 33934 created,94.1,0.69,25.64,48.63
+2026-01-15 11:42:00,api-gateway,INFO,Health check passed (trace_id=4dff8ee1),143.8,0.42,40.53,58.86
+2026-01-15 11:42:00,auth-service,INFO,Cache hit for key product_42117,127.2,0.45,32.47,51.58
+2026-01-15 11:42:00,inventory-db,INFO,Scheduled cleanup job finished (trace_id=d04e632e),134.2,1.36,26.94,62.65
+2026-01-15 11:42:00,notification-service,INFO,Scheduled cleanup job finished,123.7,0.88,36.52,47.93
+2026-01-15 11:42:00,order-service,INFO,Metrics exported successfully,100.6,1.15,42.46,46.11
+2026-01-15 11:42:00,payment-service,INFO,Heartbeat OK,116.7,1.09,34.09,47.03
+2026-01-15 11:43:00,api-gateway,WARN,Deprecated API version used by client,80.8,0.77,49.89,56.27
+2026-01-15 11:43:00,auth-service,INFO,Scheduled cleanup job finished (trace_id=60183c72),133.1,1.16,43.74,52.49
+2026-01-15 11:43:00,inventory-db,INFO,[inventory-db] Payment 91660 processed,107.6,1.1,49.64,48.94
+2026-01-15 11:43:00,notification-service,INFO,Scheduled cleanup job finished,90.1,1.04,38.56,53.88
+2026-01-15 11:43:00,order-service,INFO,Scheduled cleanup job finished,96.0,0.25,27.58,51.35
+2026-01-15 11:43:00,payment-service,INFO,Payment 78832 processed (trace_id=dd232a95),129.1,0.34,33.23,53.3
+2026-01-15 11:44:00,api-gateway,INFO,Order 6102 created,108.1,0.5,33.8,55.77
+2026-01-15 11:44:00,auth-service,INFO,Payment 28562 processed (trace_id=19ab2174),97.1,0.77,29.79,61.44
+2026-01-15 11:44:00,inventory-db,INFO,Scheduled cleanup job finished,127.2,0.7,36.76,50.09
+2026-01-15 11:44:00,notification-service,INFO,Cache hit for key product_27238,117.9,1.69,31.82,54.93
+2026-01-15 11:44:00,order-service,INFO,Order 52197 created,126.0,1.78,34.47,54.97
+2026-01-15 11:44:00,payment-service,INFO,Cache hit for key product_34408,136.3,0.5,50.3,56.7
+2026-01-15 11:45:00,api-gateway,INFO,Request completed successfully in 481ms,98.7,0.43,32.82,63.94
+2026-01-15 11:45:00,auth-service,INFO,Configuration reloaded (trace_id=c4a3748d),123.4,0.86,35.85,50.14
+2026-01-15 11:45:00,inventory-db,INFO,Cache hit for key product_60346,80.2,1.06,29.01,58.09
+2026-01-15 11:45:00,notification-service,INFO,Cache hit for key product_22490,98.8,1.16,28.43,45.6
+2026-01-15 11:45:00,order-service,INFO,User login successful for user_82338,119.2,1.38,30.12,51.41
+2026-01-15 11:45:00,payment-service,INFO,Scheduled cleanup job finished,101.5,1.02,33.14,56.6
+2026-01-15 11:46:00,api-gateway,INFO,User login successful for user_90289,73.8,0.77,43.82,50.36
+2026-01-15 11:46:00,auth-service,INFO,Payment 64232 processed,170.2,0.31,31.98,45.99
+2026-01-15 11:46:00,inventory-db,INFO,Metrics exported successfully,141.6,1.32,33.13,49.8
+2026-01-15 11:46:00,notification-service,INFO,Payment 50729 processed,145.5,0.89,41.37,59.42
+2026-01-15 11:46:00,order-service,INFO,Request completed successfully in 7087ms,98.9,1.29,32.56,66.2
+2026-01-15 11:46:00,payment-service,INFO,Health check passed,114.3,1.67,44.26,60.17
+2026-01-15 11:47:00,api-gateway,INFO,Request completed successfully in 7259ms (trace_id=11a0b436),128.6,0.28,38.75,54.44
+2026-01-15 11:47:00,auth-service,INFO,Configuration reloaded,110.5,0.49,19.12,57.03
+2026-01-15 11:47:00,inventory-db,INFO,Configuration reloaded,122.3,1.0,46.35,56.48
+2026-01-15 11:47:00,notification-service,WARN,"Slow response from cache, 6714ms",118.9,1.49,27.85,48.15
+2026-01-15 11:47:00,order-service,INFO,Heartbeat OK (trace_id=6e220a41),126.1,0.52,39.08,59.7
+2026-01-15 11:47:00,payment-service,INFO,Configuration reloaded,76.8,0.78,30.37,47.52
+2026-01-15 11:48:00,api-gateway,INFO,Health check passed,111.9,1.1,39.94,57.3
+2026-01-15 11:48:00,auth-service,INFO,Order 7169 created,106.8,0.88,37.4,49.29
+2026-01-15 11:48:00,inventory-db,INFO,Order 45032 created,123.8,1.74,47.24,54.79
+2026-01-15 11:48:00,notification-service,ERROR,Disk usage at 97% on /var/lib/data,416.5,3.39,68.78,79.48
+2026-01-15 11:48:00,order-service,INFO,Heartbeat OK,125.1,1.72,31.79,56.19
+2026-01-15 11:48:00,payment-service,WARN,Deprecated API version used by client,63.6,1.9,29.45,50.8
+2026-01-15 11:49:00,api-gateway,INFO,Health check passed,113.9,0.75,31.65,58.72
+2026-01-15 11:49:00,auth-service,WARN,Deprecated API version used by client,97.1,0.3,38.23,52.8
+2026-01-15 11:49:00,inventory-db,INFO,Payment 76527 processed,103.8,1.02,31.66,45.19
+2026-01-15 11:49:00,notification-service,ERROR,Disk usage at 96% on /var/lib/data,461.6,3.88,72.5,81.18
+2026-01-15 11:49:00,order-service,INFO,[order-service] User login successful for user_30932 (trace_id=dea73317),114.9,0.68,37.31,50.15
+2026-01-15 11:49:00,payment-service,INFO,Order 52419 created,93.2,2.15,41.98,54.2
+2026-01-15 11:50:00,api-gateway,WARN,"Retrying request, attempt 1 of 3",95.7,0.93,48.64,52.81
+2026-01-15 11:50:00,auth-service,INFO,Cache hit for key product_9245,80.4,0.17,27.42,59.56
+2026-01-15 11:50:00,inventory-db,WARN,Deprecated API version used by client,113.5,0.28,37.26,58.16
+2026-01-15 11:50:00,notification-service,CRITICAL,"Thread pool saturated, no free worker threads (trace_id=4d19ed43)",546.2,4.89,80.1,86.31
+2026-01-15 11:50:00,order-service,WARN,[order-service] Deprecated API version used by client,176.2,1.76,28.6,59.69
+2026-01-15 11:50:00,payment-service,INFO,Health check passed,97.5,0.16,39.29,58.96
+2026-01-15 11:51:00,api-gateway,INFO,Heartbeat OK,122.2,0.71,47.11,56.54
+2026-01-15 11:51:00,auth-service,INFO,Metrics exported successfully,138.4,0.64,39.15,50.91
+2026-01-15 11:51:00,inventory-db,INFO,Health check passed,97.2,0.41,42.06,61.62
+2026-01-15 11:51:00,notification-service,CRITICAL,OutOfMemoryError: Java heap space,536.6,4.81,83.9,86.53
+2026-01-15 11:51:00,order-service,INFO,Request completed successfully in 5865ms,142.2,1.38,45.59,58.47
+2026-01-15 11:51:00,payment-service,INFO,Order 32114 created,77.9,0.78,22.91,57.18
+2026-01-15 11:52:00,api-gateway,INFO,Payment 20089 processed,100.3,0.44,39.07,53.61
+2026-01-15 11:52:00,auth-service,INFO,[auth-service] Configuration reloaded,113.5,1.4,29.54,59.39
+2026-01-15 11:52:00,inventory-db,INFO,Metrics exported successfully,124.9,0.74,33.43,55.89
+2026-01-15 11:52:00,notification-service,CRITICAL,OutOfMemoryError: Java heap space,594.7,5.36,88.69,90.48
+2026-01-15 11:52:00,order-service,INFO,Payment 73857 processed,130.5,0.4,31.08,52.47
+2026-01-15 11:52:00,payment-service,INFO,Health check passed,72.9,0.32,39.35,52.78
+2026-01-15 11:53:00,api-gateway,INFO,Scheduled cleanup job finished,109.0,0.33,39.87,55.6
+2026-01-15 11:53:00,auth-service,INFO,Cache hit for key product_34018,118.7,0.9,28.06,51.59
+2026-01-15 11:53:00,inventory-db,INFO,Request completed successfully in 5205ms,82.3,0.7,27.64,47.97
+2026-01-15 11:53:00,notification-service,CRITICAL,CPU usage above 94% for 5 minutes,621.7,5.63,91.52,92.76
+2026-01-15 11:53:00,order-service,INFO,[order-service] Scheduled cleanup job finished,135.0,0.62,42.8,52.89
+2026-01-15 11:53:00,payment-service,INFO,Payment 66128 processed,123.6,0.72,39.34,49.84
+2026-01-15 11:54:00,api-gateway,INFO,Cache hit for key product_39525,87.7,0.68,20.87,54.34
+2026-01-15 11:54:00,auth-service,INFO,User login successful for user_77020,152.7,1.53,35.11,62.45
+2026-01-15 11:54:00,inventory-db,INFO,Scheduled cleanup job finished,133.9,1.12,29.01,58.74
+2026-01-15 11:54:00,notification-service,CRITICAL,Disk usage at 96% on /var/lib/data,569.1,5.11,84.56,89.83
+2026-01-15 11:54:00,order-service,INFO,Payment 39698 processed (trace_id=4b7fa6bc),176.5,1.78,50.77,47.52
+2026-01-15 11:54:00,payment-service,INFO,Request completed successfully in 6124ms (trace_id=b867c310),94.2,0.53,30.58,59.18
+2026-01-15 11:55:00,api-gateway,INFO,Order 86429 created (trace_id=31d05050),85.3,0.53,39.51,49.29
+2026-01-15 11:55:00,auth-service,INFO,User login successful for user_30625,167.3,0.73,30.27,61.63
+2026-01-15 11:55:00,inventory-db,INFO,Metrics exported successfully,124.3,0.98,35.84,49.74
+2026-01-15 11:55:00,notification-service,ERROR,CPU usage above 96% for 5 minutes,592.5,5.33,88.05,90.3
+2026-01-15 11:55:00,order-service,INFO,User login successful for user_91776 (trace_id=32693578),136.5,1.35,18.29,54.75
+2026-01-15 11:55:00,payment-service,INFO,Scheduled cleanup job finished,74.9,0.76,36.36,59.5
+2026-01-15 11:56:00,api-gateway,INFO,Cache hit for key product_83785,141.4,0.92,33.67,54.89
+2026-01-15 11:56:00,auth-service,INFO,Order 86797 created (trace_id=c4f53553),150.0,0.64,51.07,52.64
+2026-01-15 11:56:00,inventory-db,INFO,Payment 96367 processed,157.5,1.66,30.39,54.27
+2026-01-15 11:56:00,notification-service,ERROR,File descriptor limit reached: too many open files,538.2,4.88,82.72,87.33
+2026-01-15 11:56:00,order-service,INFO,[order-service] Order 39512 created,97.5,0.77,28.52,59.68
+2026-01-15 11:56:00,payment-service,INFO,Payment 58586 processed,162.8,1.27,36.68,68.15
+2026-01-15 11:57:00,api-gateway,INFO,Payment 2031 processed,100.9,0.8,38.05,59.39
+2026-01-15 11:57:00,auth-service,INFO,Payment 81716 processed,135.2,0.1,24.13,53.93
+2026-01-15 11:57:00,inventory-db,INFO,Scheduled cleanup job finished,111.1,1.21,26.74,56.9
+2026-01-15 11:57:00,notification-service,ERROR,File descriptor limit reached: too many open files (trace_id=bf2d685c),524.6,4.66,78.09,83.5
+2026-01-15 11:57:00,order-service,INFO,[order-service] Order 17862 created,119.8,0.95,34.09,60.38
+2026-01-15 11:57:00,payment-service,INFO,Health check passed (trace_id=545dddbf),115.5,1.26,31.42,53.98
+2026-01-15 11:58:00,api-gateway,INFO,User login successful for user_71564,118.4,0.12,39.78,50.16
+2026-01-15 11:58:00,auth-service,INFO,Request completed successfully in 3762ms,125.7,0.51,40.18,50.84
+2026-01-15 11:58:00,inventory-db,INFO,Scheduled cleanup job finished,109.9,1.55,34.09,51.03
+2026-01-15 11:58:00,notification-service,ERROR,File descriptor limit reached: too many open files,529.2,4.55,80.43,83.25
+2026-01-15 11:58:00,order-service,INFO,Health check passed,114.5,0.95,43.84,58.18
+2026-01-15 11:58:00,payment-service,INFO,Cache hit for key product_89847,104.7,0.92,30.72,62.81
+2026-01-15 11:59:00,api-gateway,INFO,Payment 17304 processed,111.3,0.83,32.61,53.79
+2026-01-15 11:59:00,auth-service,INFO,Heartbeat OK,120.8,1.52,41.92,56.0
+2026-01-15 11:59:00,inventory-db,INFO,User login successful for user_47696,116.3,0.42,42.2,46.54
+2026-01-15 11:59:00,notification-service,ERROR,"[notification-service] GC overhead limit exceeded, memory almost full",412.8,3.73,63.25,79.53
+2026-01-15 11:59:00,order-service,INFO,Configuration reloaded,100.7,0.46,32.09,59.46
+2026-01-15 11:59:00,payment-service,INFO,Cache hit for key product_91089,126.6,0.79,30.12,48.92
