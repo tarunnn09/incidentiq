@@ -378,3 +378,91 @@ def analyze(df, bundle, notes=None):
 def public_incidents(incidents):
     """Remove internal fields (those starting with an underscore) before sending JSON."""
     return [{k: v for k, v in i.items() if not k.startswith("_")} for i in incidents]
+
+
+def evaluate_single_event(event: dict, bundle: dict) -> dict:
+    """Evaluate one live telemetry reading in real time using both ML models and rules."""
+    info = bundle["info"]
+    score_threshold = float(info["anomaly_model"]["score_threshold"])
+
+    # 1. Prepare numeric features for Isolation Forest
+    df_single = pd.DataFrame([{
+        "latency_ms": float(event["latency_ms"]),
+        "error_rate": float(event["error_rate"]),
+        "cpu_pct": float(event["cpu_pct"]),
+        "memory_pct": float(event["memory_pct"]),
+    }])
+    scores, flags = detect_anomalies(bundle, df_single)
+    anomaly_score = float(scores[0])
+    is_anomaly = bool(flags[0])
+
+    # 2. Log classification with TF-IDF + Logistic Regression
+    classes, proba = classify_messages(bundle, [str(event.get("message", ""))])
+    order = np.argsort(proba[0])[::-1]
+    best_cat, confidence = str(classes[order[0]]), float(proba[0][order[0]])
+    runner_up = (str(classes[order[1]]), float(proba[0][order[1]])) if len(classes) > 1 else None
+
+    # 3. Check threshold limits
+    threshold_breaches = []
+    peaks = {}
+    for feat, limit in THRESHOLDS.items():
+        val = float(event[feat])
+        peaks[feat] = val
+        if val >= limit:
+            threshold_breaches.append(f"{LABELS[feat]} {val:.1f}{UNITS[feat]} >= {limit:.0f}{UNITS[feat]}")
+
+    log_level = str(event.get("log_level", "INFO")).upper()
+    is_event = is_anomaly or len(threshold_breaches) > 0 or log_level in ("ERROR", "CRITICAL")
+
+    if is_event:
+        category = "unclassified" if confidence < LOW_CONFIDENCE else best_cat
+        severity, points_breakdown = score_severity(
+            peaks=peaks,
+            max_score=anomaly_score,
+            score_threshold=score_threshold,
+            duration_minutes=1,
+            levels=[log_level],
+        )
+        cause, evidence, steps = explain(
+            category=category,
+            confidence=confidence,
+            runner_up=runner_up,
+            peaks=peaks,
+            max_score=anomaly_score,
+            n_logs=1,
+            text=str(event.get("message", "")),
+            info=info,
+        )
+        status = "incident_triggered" if severity in ("HIGH", "CRITICAL") else "anomaly_detected"
+        total_points = sum(p["points"] for p in points_breakdown)
+    else:
+        category = best_cat
+        severity = "LOW"
+        total_points = 0
+        points_breakdown = []
+        cause = "Metrics and logs are within normal operational baselines."
+        evidence = [{"source": "ML", "text": f"Anomaly score {anomaly_score:.2f} is within normal range (threshold {score_threshold:.2f})."}]
+        steps = ["System operating normally. No intervention needed."]
+        status = "normal"
+
+    return {
+        "status": status,
+        "service": event.get("service", "unknown"),
+        "timestamp": event.get("timestamp"),
+        "evaluation": {
+            "is_anomaly": is_anomaly,
+            "anomaly_score": round(anomaly_score, 4),
+            "score_threshold": round(score_threshold, 4),
+            "threshold_breaches": threshold_breaches,
+            "predicted_category": category,
+            "confidence": round(confidence, 4),
+        },
+        "diagnosis": {
+            "severity": severity,
+            "severity_points": total_points,
+            "points_breakdown": points_breakdown,
+            "probable_cause": cause,
+            "evidence": evidence,
+            "recommended_steps": steps,
+        },
+    }

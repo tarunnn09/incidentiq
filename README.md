@@ -171,6 +171,57 @@ python -m pytest -q
 | `POST /api/analyze` | upload a CSV (form field `file`), returns the same as above |
 | `GET /api/incidents` | incidents from the latest analysis; filter with `?severity=HIGH&category=database` |
 | `GET /api/model-info` | training details, hold-out scores and rule settings |
+| `POST /api/ingest` | **Live streaming telemetry ingestion**: accepts JSON events from microservices, returns real-time anomaly score & root-cause diagnosis |
+| `GET /api/stream` | inspect recent real-time ingested telemetry events and diagnoses |
+| `DELETE /api/stream` | clear the live telemetry stream buffer |
+
+### Real-Time Microservice Ingestion
+
+In addition to batch CSV analysis, IncidentIQ functions as a live telemetry ingest server for running microservices.
+
+Send a single JSON event or batch:
+
+```bash
+curl -X POST http://localhost:8000/api/ingest \
+  -H "Content-Type: application/json" \
+  -d '{
+    "service": "payment-service",
+    "message": "CRITICAL Connection pool exhausted: all 212 connections in use",
+    "latency_ms": 2200.0,
+    "error_rate": 15.0,
+    "cpu_pct": 82.0,
+    "memory_pct": 91.0,
+    "log_level": "CRITICAL"
+  }'
+```
+
+IncidentIQ immediately diagnoses the event:
+```json
+{
+  "id": "evt-7a9b1c3d",
+  "status": "incident_triggered",
+  "service": "payment-service",
+  "evaluation": {
+    "is_anomaly": true,
+    "anomaly_score": 0.74,
+    "predicted_category": "database",
+    "confidence": 0.96
+  },
+  "diagnosis": {
+    "severity": "HIGH",
+    "severity_points": 7,
+    "probable_cause": "The database connection pool is probably exhausted, so new requests wait or fail.",
+    "recommended_steps": [
+      "Check how many connections are open and which service holds them; raise the pool limit or fix connection leaks."
+    ]
+  }
+}
+```
+
+A complete plug-and-play FastAPI middleware demo is included in `examples/fastapi_middleware_demo.py`. Run it with:
+```bash
+python examples/fastapi_middleware_demo.py --simulate
+```
 
 ## 7. Docker
 

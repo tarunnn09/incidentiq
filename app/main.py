@@ -6,19 +6,25 @@ Endpoints:
   POST /api/analyze     -> upload a CSV, analyse it, return everything
   GET  /api/incidents   -> incidents from the latest analysis (optional filters)
   GET  /api/model-info  -> how the models were trained and how well they did
+  POST /api/ingest      -> real-time streaming telemetry ingestion for live microservices
+  GET  /api/stream      -> view recently ingested live telemetry events and diagnoses
+  DELETE /api/stream    -> clear the live telemetry event buffer
 """
 from contextlib import asynccontextmanager
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional
+from typing import List, Optional, Union
+import uuid
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel, Field
 
 from app.data_gen import generate_demo
 from app.intelligence import (GROUP_GAP_MINUTES, LOW_CONFIDENCE, SEVERITY_ORDER, THRESHOLDS,
-                              analyze, public_incidents)
+                              analyze, evaluate_single_event, public_incidents)
 from app.ml import load_models
 from app.validation import MAX_BYTES, MAX_ROWS, CSVValidationError, parse_csv
 
@@ -27,6 +33,21 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 # The latest analysis is kept in memory so /api/incidents can return it.
 # (Simple on purpose: one shared "current result", fine for a demo, not for many users.)
 STATE = {"bundle": None, "result": None, "source": None}
+
+# In-memory buffer for real-time streamed events from microservices
+LIVE_STREAM = []
+MAX_STREAM_ITEMS = 300
+
+
+class TelemetryEvent(BaseModel):
+    service: str = Field(..., description="Service name (e.g. payment-service)")
+    message: str = Field(..., description="Log message text")
+    latency_ms: float = Field(..., ge=0, description="Response time in milliseconds")
+    error_rate: float = Field(..., ge=0, le=100, description="Error rate percentage (0-100)")
+    cpu_pct: float = Field(..., ge=0, le=100, description="CPU usage percentage (0-100)")
+    memory_pct: float = Field(..., ge=0, le=100, description="Memory usage percentage (0-100)")
+    log_level: str = Field("INFO", description="Log level: INFO, WARN, ERROR, or CRITICAL")
+    timestamp: Optional[str] = Field(None, description="Event timestamp (defaults to current UTC)")
 
 
 def _store(result, source):
@@ -114,6 +135,57 @@ def model_info():
         "note": ("Models are trained on synthetic data made from fixed message templates, "
                  "so the hold-out scores are optimistic compared with real-world logs."),
     }
+
+
+@app.post("/api/ingest")
+def ingest_event(payload: Union[TelemetryEvent, List[TelemetryEvent]]):
+    """Real-time streaming telemetry ingestion endpoint.
+
+    Accepts a single telemetry event or a batch of events from any live service.
+    Runs each through Isolation Forest and TF-IDF classifiers, scores severity,
+    and returns immediate diagnostics (anomaly score, category, root cause, action).
+    """
+    if STATE["bundle"] is None:
+        raise HTTPException(status_code=503, detail="Models are still initializing. Please retry in a moment.")
+
+    items = payload if isinstance(payload, list) else [payload]
+    results = []
+
+    for item in items:
+        event_dict = item.model_dump() if hasattr(item, "model_dump") else item.dict()
+        if not event_dict.get("timestamp"):
+            event_dict["timestamp"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+
+        evaluation = evaluate_single_event(event_dict, STATE["bundle"])
+        event_record = {
+            "id": f"evt-{uuid.uuid4().hex[:8]}",
+            **evaluation,
+            "raw": event_dict,
+        }
+        LIVE_STREAM.append(event_record)
+        if len(LIVE_STREAM) > MAX_STREAM_ITEMS:
+            LIVE_STREAM.pop(0)
+        results.append(event_record)
+
+    return results[0] if not isinstance(payload, list) else {"count": len(results), "events": results}
+
+
+@app.get("/api/stream")
+def get_stream(limit: int = 50, service: Optional[str] = None):
+    """Retrieve recent real-time ingested events and their live evaluation."""
+    events = LIVE_STREAM
+    if service:
+        events = [e for e in events if e.get("service") == service]
+    sliced = events[-limit:]
+    return {"total": len(events), "returned": len(sliced), "events": list(reversed(sliced))}
+
+
+@app.delete("/api/stream")
+def clear_stream():
+    """Clear the in-memory live stream telemetry buffer."""
+    count = len(LIVE_STREAM)
+    LIVE_STREAM.clear()
+    return {"status": "ok", "cleared_events": count}
 
 
 @app.get("/", include_in_schema=False)

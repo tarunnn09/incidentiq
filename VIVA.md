@@ -61,6 +61,11 @@ Yes, and I say so in the README. The data is synthetic and built from fixed mess
 **What is the difference between an event and an incident?**
 An event is one unusual row. An incident is a group of related events from the same service, less than 10 minutes apart. Grouping stops one problem from showing up as 20 alerts.
 
+**How do real microservices send data to IncidentIQ?**
+Two ways:
+1. Batch historical analysis: Uploading or exporting log CSVs via `POST /api/analyze`.
+2. Live streaming ingestion: Microservices post real-time JSON telemetry to `POST /api/ingest`. IncidentIQ evaluates anomalies and classifies the issue immediately. We also provide a plug-and-play middleware (`examples/fastapi_middleware_demo.py`) that captures request latency, errors, and status codes in the background.
+
 **How does the pipeline work?**
 I push to GitHub. GitHub Actions installs dependencies, trains the models, runs the tests, builds the Docker image and checks `/health`. Render is set to deploy only after those checks pass.
 
