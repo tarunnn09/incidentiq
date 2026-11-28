@@ -48,7 +48,7 @@ def clean_text(text):
 def train_models(seed=TRAIN_SEED):
     """Generate data, train both models, test them on fresh data, and save everything."""
     MODEL_DIR.mkdir(exist_ok=True)
-    save_csvs()  # also writes data/training_data.csv so students can open it
+    save_csvs()  # also writes data/training_data.csv for inspection and offline validation
     train = generate_dataset(seed=seed)
     holdout = generate_dataset(seed=HOLDOUT_SEED)  # different seed = data the models have never seen
 
